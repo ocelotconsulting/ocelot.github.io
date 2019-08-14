@@ -9,6 +9,7 @@
 // $beige-lighter: #EFF0EB;
 
 $orange: #f05f00;
+$grey-med: #d7d7d7;
 
 // Update Bulma's global variables
 $family-sans-serif: 'Open Sans', sans-serif; // "Nunito", sans-serif;
@@ -21,10 +22,13 @@ $primary: $orange;
 
 $navbar-box-shadow-color: black;
 $navbar-item-color: $grey-light;
+$navbar-item-hover-color: $grey-dark;
+$navbar-item-hover-background-color: $grey-med;
+$navbar-item-img-max-height: 2.75rem;
 $navbar-bottom-box-shadow-size: 0 4px 0 0;
 
 // Update some of Bulma's component variables
-$body-background-color: $grey-light;
+$body-background-color: $grey-med;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
