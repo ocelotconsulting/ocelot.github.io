@@ -1,15 +1,18 @@
-##Utilities
+---
+layout: page
+title:  "Utilities"
+---
 
-**Client Sector: Power and Energy**
+## Client Sector: Power and Energy
 
-*Ocelot has partnered with a fortune 500 Client to improve customer-facing solutions, improve performance and cloud adoption, and drive advanced analytics capabilities.  As part of the deliverables to date, we have:* 
+Ocelot has partnered with a fortune 500 Client to improve customer-facing solutions, improve performance and cloud adoption, and drive advanced analytics capabilities.  As part of the deliverables to date, we have:
 
 - Deployed primary production website for the client to AWS
 - Built and Deployed Energy Efficiency Portal to production to AWS using S3, Cloudfront and API Gateway
 - Deploy CI/CD Cloudbees Jenkins cluster and various tools(Artifactory, Hygieia, Github Enterprise, Sonar, XRay)
 - Helped implement a full Blue/Green deployment strategy between the Jenkins install and various custom written lambdas assist in technology cutover
 - Forcefully deployed Self-Aware Informatica data analytics tool suite to the cloud
-- Implemented Client-standardized "Workspaces" to move local users off VDIs 
+- Implemented Client-standardized "Workspaces" to move local users off VDIs
 - Deployed Analytics POC using cloud-native glue tooling
 - Improved Quality and Productivity of on-site client cloud teams with better tooling, practices, and versioned modules
 - Extended client Active Directory to Managed AWS Active Directory with one way trust
@@ -19,22 +22,22 @@
 - Implemented a custom authorizer via Lambda in an API Gateway against client's Authentication Proxy
 - Designed Organization Structure, adding Service Control Policies implementing boundaries across all accounts.
 
-*Expertise Demonstrated* 
+### Expertise Demonstrated
 
-- Cloud migration 
+- Cloud migration
 - Hybrid cloud design
-- Cloud architecture 
+- Cloud architecture
 - Web design
 - Web architecture
 - Analytics
 - Commercial software implementation
-- Container deployment 
-- Custom API 
-- Security 
+- Container deployment
+- Custom API
+- Security
 - Active directory
-- Data Lake design 
-- Governance 
-- Automation 
-- Compliance (Customer data privacy) 
-- Knowledge transfer 
+- Data Lake design
+- Governance
+- Automation
+- Compliance (Customer data privacy)
+- Knowledge transfer
 - Partner training

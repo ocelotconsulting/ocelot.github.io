@@ -1,8 +1,11 @@
-##Financial Services
+---
+layout: page
+title:  "Financial Services"
+---
 
-**Client Sector: Insurance and Actuarial Solutions**
+## Client Sector: Insurance and Actuarial Solutions
 
-*Ocelot was tasked with accelerating cloud adoption and modernization of infrastructure for a fortune 500 Client.  As part of the deliverables to date, we have:*
+Ocelot was tasked with accelerating cloud adoption and modernization of infrastructure for a fortune 500 Client.  As part of the deliverables to date, we have:
 
 - Established a data lake with automated ingestion and metadata generation.  The lake capabilities also leverage metadata attributes to invoke fully automated data processing and provisioning steps to ensure information is immediately available for end users.
 - Assisted in creating and maintaining container infrastructure and routing supporting micro-services push along with additional UI modernization
@@ -11,7 +14,7 @@
 - Provided architectural insight for application security patterns and streamlined adoption of cloud security best practices.  Continually advise on new security improvements while promoting stability and performance.
 - Helped establish centralized cloud operations team, along with SOPs and automation patterns that can be leveraged across all client cloud infrastructures.
 
-*Expertise Demonstrated*
+### Expertise Demonstrated
 
 - Cloud migration
 - Cloud architecture
