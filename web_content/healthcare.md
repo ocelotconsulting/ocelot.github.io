@@ -24,3 +24,5 @@
 - Compliance (Customer data privacy) 
 - Knowledge transfer 
 - Partner training
+
+*test*
