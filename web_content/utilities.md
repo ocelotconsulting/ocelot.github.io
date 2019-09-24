@@ -2,10 +2,9 @@
 layout: page
 title:  "Utilities"
 ---
+<img src="/assets/images/UT-header.png" alt="divider" width="2200" height="300"/>
 
-## Client Sector: Power and Energy
-
-Ocelot has partnered with a fortune 500 Client to improve customer-facing solutions, improve performance and cloud adoption, and drive advanced analytics capabilities.  As part of the deliverables to date, we have:
+### Ocelot has partnered with a fortune 500 Client to improve customer-facing solutions, improve performance and cloud adoption, and drive advanced analytics capabilities.  As part of the deliverables to date, we have:
 
 - Deployed primary production website for the client to AWS
 - Built and Deployed Energy Efficiency Portal to production to AWS using S3, Cloudfront and API Gateway

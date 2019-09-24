@@ -2,10 +2,9 @@
 layout: page
 title:  "Healthcare"
 ---
+<img src="/assets/images/HC-header.png" alt="divider" width="2200" height="300"/>
 
-## Client Sector: Multi-line Managed Care and Specialty Services
-
-*Ocelot was selected by a fortune 50 Client to implement a completely novel web analytics portal for a $5 billion dollar book of business.  Due to the widespread success of that project, Ocelot has continued to partner with the client to deliver the following:*
+### Ocelot was selected by a fortune 50 Client to implement a completely novel web analytics portal for a $5 billion dollar book of business.  Due to the widespread success of that project, Ocelot has continued to partner with the client to deliver the following:
 
 - Deployed the first application ever to the cloud for the client
 - Built the infrastructure and helped facilitate moving the client's enterprise BI platform from on site servers to cloud

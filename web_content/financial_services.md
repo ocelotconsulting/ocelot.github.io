@@ -2,10 +2,9 @@
 layout: page
 title:  "Financial Services"
 ---
+<img src="/assets/images/FS-header.png" alt="divider" width="2200" height="300"/>
 
-## Client Sector: Insurance and Actuarial Solutions
-
-Ocelot was tasked with accelerating cloud adoption and modernization of infrastructure for a fortune 500 Client.  As part of the deliverables to date, we have:
+### Ocelot was tasked with accelerating cloud adoption and modernization of infrastructure for a fortune 500 Client.  As part of the deliverables to date, we have:
 
 - Established a data lake with automated ingestion and metadata generation  
 - Developed lake capabilities to leverage metadata to invoke fully automated data processing steps to ensure information is immediately available for use
@@ -18,7 +17,7 @@ Ocelot was tasked with accelerating cloud adoption and modernization of infrastr
 
 <img src="/assets/images/div2.png" alt="divider" width="1500" height="30"/>
 
-### Expertise Demonstrated
+### Expertise Demonstrated:
 
 - Cloud migration
 - Cloud architecture
