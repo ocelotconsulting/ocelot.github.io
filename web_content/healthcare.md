@@ -19,18 +19,20 @@ title:  "Healthcare"
 
 ### Expertise Demonstrated
 
-+ Cloud migration 
-+ Data warehouse migration
-+ Hybrid cloud design
-+ Cloud architecture
-+ Web design
-+ Web architecture
-+ Analytics
-+ Commercial software implementation
-+ Security 
-+ Active directory
-+ Data Lake design 
-+ Compliance (HIPAA) 
-+ Knowledge transfer 
-+ Partner training
-
+- Cloud migration 
+- Hybrid cloud design
+- Cloud architecture 
+- Web design
+- Web architecture
+- Analytics
+- Commercial software implementation
+- Container deployment 
+- Custom API 
+- Security 
+- Active directory
+- Data Lake design 
+- Governance 
+- Automation 
+- Compliance (Customer data privacy) 
+- Knowledge transfer 
+- Partner training
