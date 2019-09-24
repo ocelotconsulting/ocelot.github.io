@@ -20,7 +20,9 @@ Ocelot has partnered with a fortune 500 Client to improve customer-facing soluti
 - Stood up a Storage Gateway to allow for easier big data transfer from on-prem NFS mounts
 - Drive cross collaboration with client to increase knowledge base with skill sets that Ocelot has (Docker, AWS, Terraform, web-dev)
 - Implemented a custom authorizer via Lambda in an API Gateway against client's Authentication Proxy
-- Designed Organization Structure, adding Service Control Policies implementing boundaries across all accounts.
+- Designed Organization Structure, adding Service Control Policies implementing boundaries across all accounts
+
+<img src="/assets/images/div2.png" alt="divider" width="1500" height="30"/>
 
 ### Expertise Demonstrated
 

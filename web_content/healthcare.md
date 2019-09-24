@@ -16,20 +16,22 @@ title:  "Healthcare"
 - Transforming and migrating data from internal Enterprise Data Warehouse instances to AWS Redshift 
 - Helped establish and manage a Data Lake using cloud infrastructure 
 
+<img src="/assets/images/div2.png" alt="divider" width="1500" height="30"/>
 
-*Expertise Demonstrated* 
+### Expertise Demonstrated
 
-- Cloud migration 
-- Data warehouse migration
-- Hybrid cloud design
-- Cloud architecture
-- Web design
-- Web architecture
-- Analytics
-- Commercial software implementation
-- Security 
-- Active directory
-- Data Lake design 
-- Compliance (HIPAA) 
-- Knowledge transfer 
-- Partner training
++ Cloud migration 
++ Data warehouse migration
++ Hybrid cloud design
++ Cloud architecture
++ Web design
++ Web architecture
++ Analytics
++ Commercial software implementation
++ Security 
++ Active directory
++ Data Lake design 
++ Compliance (HIPAA) 
++ Knowledge transfer 
++ Partner training
+
