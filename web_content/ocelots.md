@@ -17,3 +17,6 @@ fiscal and market differentiating goals.
 
 ---
 [Meet Our Founders](/web_content/founders.html) 
+
+[Connect with us on Linkedin](https://www.linkedin.com/company/ocelot-consulting-llc/people/)
+
