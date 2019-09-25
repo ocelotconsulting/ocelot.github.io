@@ -77,10 +77,12 @@ a {
   background-color: transparent;
 }
 
+/* button experiments
+
 a:link, a:visited {
-  background-color: #ff6600;
+  background-color: #fa7117;
   color: white;
-  padding: 14px 25px;
+  padding: 2px 2px;
   text-align: center; 
   text-decoration: none;
   display: inline-block;
@@ -92,6 +94,8 @@ a:hover, a:active {
   -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
 }
+*/
+
 
 /**
  * 1. Remove the bottom border in Chrome 57-
