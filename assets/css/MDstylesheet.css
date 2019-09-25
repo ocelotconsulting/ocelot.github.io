@@ -154,7 +154,8 @@ table th :last-child, table td :last-child {
 }
 
 img {
-  max-width: 100%;
+  max-width: 30%;
+   height: auto;
 }
 
 span.frame {
@@ -171,12 +172,17 @@ span.frame > span {
   padding: 7px;
   width: auto;
 }
-
+/*
 span.frame span img {
   display: block;
   float: left;
 }
 
+span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+*/
 span.frame span span {
   clear: both;
   color: #333333;
@@ -194,11 +200,6 @@ span.align-center > span {
   display: block;
   overflow: hidden;
   margin: 13px auto 0;
-  text-align: center;
-}
-
-span.align-center span img {
-  margin: 0 auto;
   text-align: center;
 }
 
