@@ -43,21 +43,21 @@ It's not easy to find talent that checks all those boxes. The good news is - whe
 
 ## Ocelots in the wild
 
-*Sharing ideas to develop local leaders*
+*Thrilled to have our Managing Director, Mike Weaver, share his experiences with the St Louis Women in Tech Exchange on the topic of "The Confident You".  It was a fantastic event, and we were honored to participate.*
 
-<img src="/assets/images/wite-june19.png" alt="divider" width="3500" height="752"/>
+<img src="/assets/images/wite.png" alt="divider" width="3500" height="752"/>
 
 ---
 
-*Participating in charities to support amazing causes*
+*We are very proud to help sponsor LaunchCode's annual Trivia Night this past weekend.  Such an amazing organization helping so many people get started in their careers and improving the community.  And one of our teams (quarterbacked by co-founder John O'Malley) won the entire trivia event!*
 
-<img src="/assets/images/lc-trivia-night.png" alt="divider" width="3500" height="752"/>
+<img src="/assets/images/trivia.png" alt="divider" width="3500" height="752"/>
 
 ---
 
 *And of course, making sure our friends and employees stay well fed*
 
-<img src="/assets/images/taste.png" alt="divider" width="3500" height="752"/>
+<img src="/assets/images/tasteofstl.png" alt="divider" width="3500" height="752"/>
 
 
 
