@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_w_tables
 title:  "Customer Success Stories"
 ---
 
