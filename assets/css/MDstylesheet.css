@@ -77,6 +77,22 @@ a {
   background-color: transparent;
 }
 
+a:link, a:visited {
+  background-color: #ff6600;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+	color: #333333;
+  background-color: #fca267;
+  -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.

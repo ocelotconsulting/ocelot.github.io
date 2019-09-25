@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_w_tables
 
 ---
 <img src="/assets/images/ocelot-2019-banner.png" alt="divider" width="3500" height="752"/>
