@@ -37,10 +37,46 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  box {
+  border: solid 1px #ccc;
+  border-radius: 6px;
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
 }
+
+  imgBox {
+  overflow: hidden;
+  flex: none;
+}
+  
+  content {
+      padding: 15px;
+  }
+  
+  content h3 {
+      margin:0;
+      padding-left:0;
+  }
+  
+  content p {
+      margin:0;
+      padding-left:0;
+  }
+
+h3 {
+  margin-top: 0.625em;
+}
+
+
 
 /* Grouping content
    ========================================================================== */
@@ -52,7 +88,7 @@ h1 {
 
 hr {
   box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
+  width: 100%;
   overflow: visible; /* 2 */
 }
 
