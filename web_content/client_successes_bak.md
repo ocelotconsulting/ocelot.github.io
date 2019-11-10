@@ -21,5 +21,5 @@ title:  "Customer Success Stories"
 | [Telecommunications](/web_content/telecom.html) 							| [Travel](/web_content/travel.html)															    | [Human Resources](/web_content/hr.html) 											  |
 |:-------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
 |Infrastructure and web redesigns for a major telecommunications and cable provider |Placeholder for enterprise holdings in the event that we win business in the analytics or IT areas |Placeholder for kiosite-fill in template and design work that was done for the client|
-		
+
 ---

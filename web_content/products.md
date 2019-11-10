@@ -24,7 +24,7 @@ title: "What We Offer"
 						<li>Custom API development for secure cloud access</li>
 				</p>
 		</div>
-  </div>
+	</div>
 </div>
 
 ---
@@ -71,8 +71,8 @@ title: "What We Offer"
 					<li>Identify areas for process improvement and continuous improvement to boost data quality at source</li>
 					<li>Define communication and education of end users for quality issues and repairs</li>
 			</p>
+		</div>
 	</div>
-  </div>
 </div>
 
 ---
@@ -121,8 +121,7 @@ title: "What We Offer"
 		</div>
     <div class="content">
 		<h3>The last several years has seen more need for personal information transparency and the ability to track information more than ever. To compliment consumer privacy requests, 
-		multiple governments have created legislation that dictates how customer information must be handled and secured. Additionally, financial transactions and calculations 
-		are also seeing increased legislation due to failures in the banking industry to recognize risky investments. Sarbenes Oxley (SOX), General Data Protection Regulation (GDPR), 
+		legislation has been passed that dictates how customer information must be handled and secured. Sarbenes Oxley (SOX), General Data Protection Regulation (GDPR), 
 		and even Health Insurance Portability and Accountability Act (HIPAA) have dramatically influenced the information technology landscape and require a new level of data security and audit capabilities.  
 		</h3>
 			<p>
