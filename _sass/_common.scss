@@ -4,3 +4,10 @@ section.grey-gradiant {
   background-repeat: repeat-x, no-repeat;
   padding: 0 0 12rem 0;
 }
+
+section.dark-grey-gradiant {
+  background-image: url('/assets/images/white-grid-pattern-full.png'), linear-gradient(-181deg, $grey-light, $grey-dark);
+  background-position: bottom left, top left;
+  background-repeat: repeat-x, no-repeat;
+  padding: 0 0 12rem 0;
+}

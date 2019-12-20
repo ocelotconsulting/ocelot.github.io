@@ -12,7 +12,7 @@ This was the mission from day one - helping clients modernize by meeting them wh
 
 The difference is how we help them get there.
 
-[Meet Our Founders](/web_content/founders.html) 
+[Meet Our Leadership Team](./leadership-team.html)
 
 ---
 ## Our Strategic Partnership Philosophy
