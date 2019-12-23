@@ -2,7 +2,7 @@
 
 ## Development Setup
 
-1. Installing [Ruby][ruby].
+1. Install [Ruby][ruby].
 
     ```
     brew install ruby
