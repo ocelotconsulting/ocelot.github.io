@@ -37,6 +37,9 @@ sass:
 markdown: kramdown
 markdown_ext: "md"
 highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # ----------------------- #
 #   3rd Party Settings    #
