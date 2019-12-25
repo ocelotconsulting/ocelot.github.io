@@ -11,20 +11,49 @@
 </head>
   <body id="home">
     <div id='nav' class='navbar'>
-  <div class='navbar-brand '>
+  <div class='navbar-brand'>
       <a class="navbar-item" href='/'>
         <img src='/assets/images/ocelot.svg'>
       </a>
       <a class="navbar-item is-size-5 is-capitalized is-roboto" href='/'>
         Ocelot Consulting
       </a>
+      <div class="navbar-burger burger" data-target="ocelot-navbar-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
   </div>
-  <div class="navbar-menu">
+  <div id="ocelot-navbar-menu" class="navbar-menu">
     <div class="navbar-start">
     </div>
     <div class="navbar-end">
       <a class="navbar-item" href="/#who-we-are">Who We Are</a>
-      <a class="navbar-item" href="/#solutions">Solutions</a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="/#solutions">
+          Solutions
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" href="/client-success/healthcare">
+            Healthcare
+          </a>
+          <a class="navbar-item" href="/client-success/utilities">
+            Utilities
+          </a>
+          <a class="navbar-item" href="/client-success/financial_services">
+            Financial Services
+          </a>
+          <a class="navbar-item" href="/client-success/telecom">
+            Telecommunications
+          </a>
+          <a class="navbar-item" href="/client-success/travel">
+            Travel
+          </a>
+          <a class="navbar-item" href="/client-success/hr">
+            Human Resources
+          </a>
+        </div>
+      </div>
       <a class="navbar-item" href="/#contact">Contact</a>
       <div class="navbar-item">|</div>
       <a class="navbar-item" href="/careers">Careers</a>
