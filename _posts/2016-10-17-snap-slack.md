@@ -1,7 +1,7 @@
 ---
 layout:      post
 title:       "Snap-Slack Bot"
-subtitle:    "leveraging AWS lambda for asynchronous slack activities"
+subtitle:    "Leveraging AWS lambda for asynchronous slack activities"
 date:        2016-10-17 13:45:00
 author:      "Larry Anderson"
 header-img:  "img/blog/snap-slack.jpg"
