@@ -5,7 +5,7 @@ subtitle:    "Secure, scalable and worry free websites"
 date:        2016-10-03 00:00:00
 author:      "Chris Coffman"
 description: "Securing your AWS CloudFront distribution using Cognito and Lambda"
-header-img:  "img/blog/code.jpg"
+header-img:  "/assets/images/blog/code.jpg"
 ---
 
 Recently, I was developing a website for a company that needed to be globally available. The site also needed to be secured so only employees could access the content. Up to this point I had been hosting my websites in AWS EC2 instances and I wanted to try hosting this site using S3 and CloudFront. I ran into an issue securing the site. We had previously been using a security gateway to provide security to our VPC. If I was going to secure CloudFront, what was the best way to enable security?

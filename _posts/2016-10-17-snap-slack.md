@@ -4,7 +4,7 @@ title:       "Snap-Slack Bot"
 subtitle:    "Leveraging AWS lambda for asynchronous slack activities"
 date:        2016-10-17 13:45:00
 author:      "Larry Anderson"
-header-img:  "img/blog/snap-slack.jpg"
+header-img:  "/assets/images/blog/snap-slack.jpg"
 description: "A Snapchat-style slack bot implemented in AWS Lambda"
 ---
 

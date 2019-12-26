@@ -4,7 +4,7 @@ title:       "Dynamic Entitlements"
 subtitle:    "using Neo4j"
 date:        2016-10-10 10:05:00
 author:      "John O'Malley"
-header-img:  "img/blog/nodes.png"
+header-img:  "/assets/images/blog/nodes.png"
 description: "Enabling dynamic entitlements using neo4j"
 ---
 

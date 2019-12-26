@@ -3,7 +3,7 @@ layout:          post
 title:           "The Right Abstraction for Lambdas"
 date:            2019-02-25 09:00:00
 author:          "Artem Chernyak"
-header-img:      "img/blog/code.jpg"
+header-img:      "/assets/images/blog/code.jpg"
 description:     "Using serverless functions to hand requests"
 cross-post-link: "https://hackeryarn.com/post/the-right-abstraction-for-lambdas/"
 cross-post-text: "hackeryarn.com"

@@ -5,9 +5,8 @@ subtitle:    "Ocelot Consulting introduction"
 date:        2016-09-22 09:05:00
 author:      "Tyler, Larry, Chris, and John"
 description: "Who we are and what we have set out to accomplish!"
-header-img:  "img/blog/launch.jpg"
+header-img:  "/assets/images/blog/launch.jpg"
 ---
-
 
 Welcome to Ocelot Consulting. It sounds really good to say that, but who are we, what do we do, why do you care?
 

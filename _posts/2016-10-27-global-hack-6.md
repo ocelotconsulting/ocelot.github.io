@@ -4,7 +4,7 @@ title:       "GlobalHack VI"
 subtitle:    "Caffeine, Coding, and Contributing for a Cause"
 date:        2016-10-27 08:00:00
 author:      "John, Larry, and Tyler"
-header-img:  "img/blog/homeless.jpg"
+header-img:  "/assets/images/blog/homeless.jpg"
 description: "The Ocelot team's experience participating in GlobalHack 6 (for St. Patrick's Center in St. Louis)"
 ---
 
@@ -17,7 +17,8 @@ We participated in this year's [GlobalHack 6](https://globalhack.org/globalhack-
 * **Electronic Referrals/Data Sharing** -- helping a Continuum of Care (CoC) become more integrated and refer people from one service to another
 * **Data visualization** -- helping a CoC to be able to quickly view changes in performance of initiatives and be able to compare with other CoC's nationally
 
-## **The Logistics**
+## The Logistics
+
 We arrived at noon on Friday and got set up early.  Virtually the entire surface of the floor of Chaifetz arena was covered with tables and power cords:
 
 {: .blog-center}

@@ -4,7 +4,7 @@ title:       "Unit testing with React and Enzyme"
 date:        2019-02-21 09:00:00
 author:      "John O'Malley"
 description: "Unit Testing React Components"
-header-img:  "img/blog/code.jpg"
+header-img:  "/assets/images/blog/code.jpg"
 ---
 
 One of the benefits of [React](https://reactjs.org/) is that rendering logic is completely independent of the DOM. This feature provides a number of advantages - server-side rendering, for instance - but perhaps the greatest is that unit testing using Node is made much easier.

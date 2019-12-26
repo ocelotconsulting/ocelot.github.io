@@ -4,7 +4,7 @@ title:       "STL OWASP CTF"
 subtitle:    "Seeing information security from the other side"
 date:        2016-10-28 09:45:00
 author:      "Larry Anderson"
-header-img:  "img/blog/war_room.jpg"
+header-img:  "/assets/images/blog/war_room.jpg"
 description: "My experience at the October 20th Capture The Flag event put on by the St. Louis OWASP chapter."
 ---
 
