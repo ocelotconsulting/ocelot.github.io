@@ -35,7 +35,7 @@ You could make the argument that this approach is inappropriate in certain conte
 drivers), but for application code it's often the best way.  Consider this contrived example of an 
 [express](https://expressjs.com/) endpoint:
 
-``` javascript
+```js
 const getItemEndpoint = async (req, res) => {
   try {   
     const {id} = req.params
@@ -74,7 +74,7 @@ of unpleasant side effects to boot.
 values, and it's conventional for one of those to be an error if there is a possibility of failure.  So you'll see a lot of 
 this sort of thing:
 
-``` go
+```go
 response, err := GetData()
 if err != nil {
     return err
