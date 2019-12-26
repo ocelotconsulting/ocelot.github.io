@@ -1,10 +1,7 @@
 ---
-layout: page_w_tables
+layout: page_w_header
 title:  "Customer Success Stories"
----
-
-## Ocelot carries a legacy of highly successful partnerships in multiple industries
-#### *Click below to explore accomplishments by industry*
+introduction: "Ocelot carries a legacy of highly successful partnerships in multiple industries"
 ---
 
 <!--![Healthcare](/assets/images/health_care_6x9.jpg)-->
