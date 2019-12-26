@@ -1,7 +1,7 @@
 ---
 layout: page_w_header
 title:  "How we've helped to transform our clients"
-introduction: "Ocelot carries a legacy of highly successful partnerships in multiple industries"
+subtitle: "Ocelot carries a legacy of highly successful partnerships in multiple industries"
 ---
 
 <!--![Healthcare](/assets/images/health_care_6x9.jpg)-->
