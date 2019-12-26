@@ -1,16 +1,16 @@
 ---
-layout:     post
-title:      "Dynamic Entitlements"
-subtitle:   "using Neo4j"
-date:       2016-10-10 10:05:00
-author:     "John O'Malley"
-header-img: "img/blog/nodes.png"
+layout:      post
+title:       "Dynamic Entitlements"
+subtitle:    "using Neo4j"
+date:        2016-10-10 10:05:00
+author:      "John O'Malley"
+header-img:  "img/blog/nodes.png"
 description: "Enabling dynamic entitlements using neo4j"
 ---
 
 Around a year ago my team was given the task of creating a cloud infrastructure in AWS for a new generation of custom application development for a Fortune 500 company. One necessary piece of the puzzle would be a new entitlement system; our legacy systems were clearly obsolete and inadequate.  We decided to model our entitlement system using [Neo4j](https://neo4j.com/), a popular graph database.
 
-### The legacy environment
+### The Legacy Environment
 
 Our legacy services relied on a combination of an aging home-grown entitlement system and [Active Directory](https://en.wikipedia.org/wiki/Active_Directory) groups, with an abstraction layer on top which represented an attempt to unify and simplify the two disparate designs. All entitlements existed in a single global namespace; so one would have a global role list with values like `FOO_BAR_EDITOR` and `SOME_APP_USER`.
 
@@ -29,16 +29,12 @@ As a model centered on entities and relationships emerged, two choices for the d
 + Often, the same relationship (semantically speaking) can exist between two pairs of nodes whose logical schemas may not match. For instance, in the example model below the `:GRANTED_TO` relationship is defined as a relationship between an entitlement and a user OR and entitlement and an organization.   Modeling such a concept in a relational database would be unnecessarily complex.
 + Neo4j doesn't require that you produce a strict schema while still allowing integrity constraints and indices.
 
-### Installing and running Neo4j
+### Installing and Running Neo4j
 
 If you're the type of person that learns best by doing, I recommend you install Neo4j and follow along with the example below. Even if you're entirely unfamiliar with graph databases you'll find that the barrier to entry is small -- it has a nice web interface that makes interacting with the DB easy.  You can download Community Edition [directly from Neo4j](https://neo4j.com/download/) or if you're like me you might prefer [docker](https://www.docker.com/products/docker) and the official [Neo4j image](https://hub.docker.com/_/neo4j/). Once you're up and running open [http://localhost:7474](http://localhost:7474), log in, set your admin password, and you're ready to start building your model:
 
----
-
 {: .blog-center}
-![Neo4j welcome](/img/blog/2016-10-10-entitlements/neo4j-welcome.png){:width="100%"}
-
----
+![Neo4j welcome](/assets/images/blog/2016-10-10-entitlements/neo4j-welcome.png)
 
 ### Building the model
 
@@ -54,12 +50,8 @@ create (:User {id: 'bob', name: 'Bob'})
 
 Run these statements one at a time in the Neo4j console and take note of the results. Neo4j tells you exactly what was created:
 
----
-
 {: .blog-center}
-![Neo4j welcome](/img/blog/2016-10-10-entitlements/neo4j-feedback.png){:width="100%"}
-
----
+![Neo4j welcome](/assets/images/blog/2016-10-10-entitlements/neo4j-feedback.png)
 
 Next let's create a slice of an organizational hierarchy.  In our example the *IT* organization contains an
 *Application Development* organization that in turn contains a *Web Application Development* organization:
@@ -143,12 +135,8 @@ match (o:Org {id: 'IT'}) match (e:Entitlement {id: 'b7a564adc81e830fe95b'}) crea
 
 The Neo4j web console provides a nice visualization for our simplified model:
 
----
-
 {: .blog-center}
-![Neo4j welcome](/img/blog/2016-10-10-entitlements/model-visualization.png){:width="100%"}
-
----
+![Neo4j welcome](/assets/images/blog/2016-10-10-entitlements/model-visualization.png)
 
 ### Querying a user's entitlements
 
@@ -166,12 +154,8 @@ The first statement matches any entitlement granted to the user by virtue of his
 
 The expression `[:CONTAINS*0..]` implies that there may be zero or more relationships to traverse between organizations before we find the entitlement granted to an organization in the hierarchy. For Bob we don't traverse any parent organizations because he is a member of the *IT* organization directly. The same entitlement requires two traversals for Alice.
 
----
-
 {: .blog-center}
-![Neo4j welcome](/img/blog/2016-10-10-entitlements/entitlement-query-result.png){:width="100%"}
-
----
+![Neo4j welcome](/assets/images/blog/2016-10-10-entitlements/entitlement-query-result.png)
 
 ### Extensions
 
