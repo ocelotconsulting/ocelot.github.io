@@ -3,7 +3,7 @@ layout: page_w_tables
 title: "What We Offer"
 ---
 
-<div id="container">
+<div id="cloud">
      <div class="box">
         <div class="imgBox">
 			<img src="/assets/images/cloud2.png" alt="divider" align="middle" width="2000" style="padding: 10px;"/>
@@ -29,7 +29,7 @@ title: "What We Offer"
 
 ---
 
-<div id="container">
+<div id="data">
 	<div class="box">
         <div class="imgBox">
 			<img src="/assets/images/meta-master.png" alt="divider" width="2000" align="middle" style="padding: 10px;"/>
@@ -77,7 +77,7 @@ title: "What We Offer"
 
 ---
 
-<div id="container">
+<div id="analytics">
 	<div class="box">
         <div class="imgBox">
 			<img src="/assets/images/analytics.png" alt="divider" width="2000" align="middle" style="padding: 10px;"/>
@@ -114,7 +114,7 @@ title: "What We Offer"
 
 ---
 
-<div id="container">
+<div id="security">
 	<div class="box">
         <div class="imgBox">
 			<img src="/assets/images/security.png" alt="divider" width="2000" align="middle" style="padding: 10px;"/>
