@@ -2311,7 +2311,10 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .nav-spacer { padding-top: 4rem; }
 
+/* The following were added to support the old blog posts. They can be re-thought in the future after we re-style the blog section. */
 .blog-center { text-align: center; }
+
+.globalhack-screenshots img { width: 25%; height: 25%; margin: 5px; vertical-align: middle; }
 
 section.grey-gradiant { background-image: url("/assets/images/white-grid-pattern-full.png"), linear-gradient(-181deg, #f8f8f8, #ededed); background-position: bottom left, top left; background-repeat: repeat-x, no-repeat; padding: 0 0 12rem 0; }
 
