@@ -1,0 +1,17 @@
+<div id="{{ include.id }}">
+  <section class="hero {{ include.section }}">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">{{ include.title }}</h1>
+        <div class="columns">
+          {% for icon in include.icons %}
+            <div class="column">
+              <i class="fas {{ icon.icon }} fa-4x"></i>
+              <div>{{ icon.title }}</div>
+            </div>
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+</section>
+</div>
