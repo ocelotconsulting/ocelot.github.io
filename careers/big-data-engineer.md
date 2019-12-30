@@ -1,6 +1,7 @@
 ---
 layout: page_w_header
 title:  "Big Data Engineer"
+subtitle: "Saint Louis, MO | Full Time"
 background: shortBackground
 ---
 
@@ -34,3 +35,6 @@ Standard Benefits Program (medical, dental, retirement, PTO, etc.)
 
 # Contact
 Interested candidates please apply <a href="https://www.indeed.com/job/big-data-engineer-18a7c0d744835ec4" target="_blank">online</a> or submit resumes to: [careers@ocelotconsulting.com](mailto:careers@ocelotconsulting.com).
+
+<a class="button is-primary is-outlined" href="https://www.indeed.com/job/big-data-engineer-18a7c0d744835ec4" target="_blank">Apply Online</a>
+<a class="button is-link is-outlined" href="mailto:careers@ocelotconsulting.com" target="_blank">Email your Resume</a>

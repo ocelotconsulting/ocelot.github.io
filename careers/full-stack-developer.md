@@ -1,6 +1,7 @@
 ---
 layout: page_w_header
 title:  "Full Stack Developer"
+subtitle: "Saint Louis, MO | Full Time"
 background: shortBackground
 ---
 
@@ -37,3 +38,6 @@ Standard Benefits Program (medical, dental, retirement, PTO, etc.)
 
 # Contact
 Interested candidates please apply <a href="https://www.indeed.com/job/full-stack-developer-cloud-native-b85dc9073f5bdf8e" target="_blank">online</a> or submit resumes to: [careers@ocelotconsulting.com](mailto:careers@ocelotconsulting.com).
+
+<a class="button is-primary is-outlined" href="https://www.indeed.com/job/full-stack-developer-cloud-native-b85dc9073f5bdf8e" target="_blank">Apply Online</a>
+<a class="button is-link is-outlined" href="mailto:careers@ocelotconsulting.com" target="_blank">Email your Resume</a>
