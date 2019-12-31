@@ -2328,6 +2328,7 @@ section.dark-grey-gradiant { background-image: url("/assets/images/white-grid-pa
 #highlights .section .container .content .welcome-cards .card figure.image { margin: 0; }
 #highlights .section .container .content .welcome-cards .card figure.image img { border-radius: .3rem .3rem 0 0; }
 #highlights .section .container .content .welcome-cards .card .card-content .content { color: #404040; }
+#highlights .section .container .content .welcome-cards .card .button { transition: all .5s; }
 #highlights .section .container .content .welcome-cards .fas { margin-left: 8px; }
 
 .page-contents .section { padding: 0 1.5rem; }
