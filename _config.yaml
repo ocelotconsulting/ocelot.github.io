@@ -6,25 +6,40 @@ url: http://ocelotconsulting.com
 title: Ocelot Consulting
 email: info@ocelotconsulting.com
 author: Ocelot Developers
-description: > # "Ocelot Consulting specializes in cloud technologies, custom application development and enterprise security.
-  Ocelot Consultants are certified AWS Solution Architects and have experience migrating enterprise applications and data for
-  Fortune 500 companies.
+description: >
+  Ocelot Consultants are certified AWS Solution Architects and have experience
+  migrating enterprise applications and data for Fortune 500 companies.
 copyright: 'Copyright &copy; 2018 Ocelot Consulting LLC. All Rights Reserved.'
+about: >
+  Ocelot Consulting specializes in cloud technologies, custom application development
+  and enterprise security. Ocelot Consultants are certified AWS Solution Architects
+  and have experience migrating enterprise applications and data for Fortune 500 companies.
 
-about: 'Ocelot Consulting specializes in cloud technologies, custom application development and enterprise security.
-Ocelot Consultants are certified AWS Solution Architects and have experience migrating enterprise applications and data for
-Fortune 500 companies.'
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
 
 # Build settings
-markdown: kramdown
-plugins: [jekyll-paginate, jekyll-feed, jekyll-seo-tag, jekyll-sitemap]
+timezone: America/Chicago
+encoding: utf-8
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - rouge
 paginate: 5
 paginate_path: "/blog/page:num/"
 sass:
   style: compact # possible values: nested expanded compact compressed
+
+# Markdown conversion
+markdown: kramdown
+markdown_ext: "md"
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # ----------------------- #
 #   3rd Party Settings    #
