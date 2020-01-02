@@ -2,6 +2,8 @@
     position: relative;
     display: inline;
     &__frames--left {
+        left:3rem;
+        top:3rem;
         position: absolute;
         height: 30rem;
         width: 30rem;
@@ -11,11 +13,14 @@
 
     &__frames--right {
         position: absolute;
-        right: 0;
-        top: 20rem;
-        height: 18rem;
-        width: 18rem;
-        clip-path: polygon(0 0, 50% 0, 50% 50%, 100% 50%, 100% 100%, 50% 100%, 50% 50%, 0 50%);
+        right:3rem;
+        top: 15rem;
+        height: 30rem;
+        width: 30rem;
+        // clip-path: polygon(0 0, 50% 0, 50% 50%, 100% 50%, 100% 100%, 50% 100%, 50% 50%, 0 50%);
+        // clip-path: polygon(90% 60%, 90% 90%, 60% 90%, 60% 30%, 30% 30%, 30% 90%, 0 90%, 0 60%, 50% 60%);
+        
+        clip-path: polygon(100% 60%, 100% 90%, 70% 90%, 70% 30%, 40% 30%, 40% 90%, 10% 90%, 10% 60%, 50% 60%);
         object-fit: cover;
     }
 }

@@ -2341,9 +2341,12 @@ section.dark-grey-gradiant { background-image: url("/assets/images/white-grid-pa
 .button { transition: all .3s; }
 
 .subtitle__spacing-medium { padding: 0 20rem 0 20rem; font-size: 1.5rem; line-height: 2rem; }
+.subtitle__spacing-small { padding: 0 5rem 0 5rem; font-size: 1.5rem; line-height: 2rem; }
 
+.title { color: #f05f00; }
 .title__spacing-medium { padding: 0 20rem 0 20rem; font-size: 2.5rem; word-break: keep-all; }
+.title__spacing-small { padding: 0 5rem 0 5rem; font-size: 2.5rem; word-break: keep-all; }
 
 .video-collage { position: relative; display: inline; }
-.video-collage__frames--left { position: absolute; height: 30rem; width: 30rem; clip-path: polygon(0 0, 0 30%, 60% 30%, 60% 60%, 0 60%, 0 90%, 30% 90%, 30% 30%, 30% 30%, 30% 0%); object-fit: cover; }
-.video-collage__frames--right { position: absolute; right: 0; top: 20rem; height: 18rem; width: 18rem; clip-path: polygon(0 0, 50% 0, 50% 50%, 100% 50%, 100% 100%, 50% 100%, 50% 50%, 0 50%); object-fit: cover; }
+.video-collage__frames--left { left: 3rem; top: 3rem; position: absolute; height: 30rem; width: 30rem; clip-path: polygon(0 0, 0 30%, 60% 30%, 60% 60%, 0 60%, 0 90%, 30% 90%, 30% 30%, 30% 30%, 30% 0%); object-fit: cover; }
+.video-collage__frames--right { position: absolute; right: 3rem; top: 15rem; height: 30rem; width: 30rem; clip-path: polygon(100% 60%, 100% 90%, 70% 90%, 70% 30%, 40% 30%, 40% 90%, 10% 90%, 10% 60%, 50% 60%); object-fit: cover; }
