@@ -5,7 +5,7 @@ subtitle: "Ocelot carries a legacy of highly successful partnerships in multiple
 ---
 
 <!--![Healthcare](/assets/images/health_care_6x9.jpg)-->
-<img src="/assets/images/health_care_6x9.jpg" alt="Healthcare" width="400" height="265" hspace="15"/>    <img src="/assets/images/utilities2-6x9.jpg" alt="Utilities" width="400" height="265" hspace="15" />    <img src="/assets/images/financials2-6x9.jpg" alt="Fin_serv" width="400" height="265" hspace="15" /> 
+<a href="/client-success/healthcare.html"><img src="/assets/images/health_care_6x9.jpg" alt="Healthcare" width="400" height="265" hspace="15"/>    <a href="/client-success/utilities.html"><img src="/assets/images/utilities2-6x9.jpg" alt="Utilities" width="400" height="265" hspace="15" />    <a href="/client-success/financial_services.html"><img src="/assets/images/financials2-6x9.jpg" alt="Fin_serv" width="400" height="265" hspace="15" /> 
 
 | [Healthcare](/client-success/healthcare.html) 												   | [Utilities](/client-success/utilities.html) 										 | [Financial Services](/client-success/financial_services.html)							 |
 |:--------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
@@ -13,7 +13,7 @@ subtitle: "Ocelot carries a legacy of highly successful partnerships in multiple
 
 ---
 <!--![Healthcare](/assets/images/health_care_6x9.jpg)-->
-<img src="/assets/images/telecom-6x9.jpg" alt="Telecom" width="400" height="265" hspace="15"/>    <img src="/assets/images/travel-6x9.jpg" alt="Travel" width="400" height="265" hspace="15" />    <img src="/assets/images/hr.jpg" alt="HR" width="400" height="265" hspace="15" /> 
+<a href="/client-success/telecom.html"><img src="/assets/images/telecom-6x9.jpg" alt="Telecom" width="400" height="265" hspace="15"/>    <a href="/client-success/travel.html"><img src="/assets/images/travel-6x9.jpg" alt="Travel" width="400" height="265" hspace="15" />    <a href="/client-success/hr.html"><img src="/assets/images/hr.jpg" alt="HR" width="400" height="265" hspace="15" /> 
 
 | [Telecommunications](/client-success/telecom.html) 							| [Travel](/client-success/travel.html)															    | [Human Resources](/client-success/hr.html) 											  |
 |:-------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
