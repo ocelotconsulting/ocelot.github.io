@@ -1,7 +1,7 @@
 @keyframes moveInBottom {
     0% {
         opacity: 0;
-        /* animates in x direction, more in left in beginning */
+        /* animates in y direction 2rem, more in left in beginning */
         /* transform: translateY(30px) */
         transform: translateY(2rem)
     }
@@ -17,7 +17,7 @@
 @keyframes moveInBottomLight {
     0% {
         opacity: 0;
-        /* animates in x direction, more in left in beginning */
+        /* animates in the y direction 1rem, more in left in beginning */
         /* transform: translateY(30px) */
         transform: translateY(1rem)
     }
