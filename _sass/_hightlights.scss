@@ -23,10 +23,12 @@
             margin: 9rem 0 0 ;
             list-style: none;
             min-height: 15rem;
+            font-size: 4rem;
           }
           animation: moveInBottom .5s ease-in;
         }
         .welcome-cards {
+          margin-top: -5rem;
           .card {
             min-height: 20rem;
             background-color: $grey-light;
