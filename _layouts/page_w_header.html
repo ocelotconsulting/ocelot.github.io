@@ -6,32 +6,37 @@
     <div class='nav-spacer page-contents'>
     <div id="highlights">
       <section class="section grey-gradiant">
+        {% if page.background %}
+          <div class="background {{ page.background }}"></div>
+        {% else %}
           <div class="background"></div>
-          <div class="container">
-              <div class="content">
-              <div class="columns welcome-text is-hidden-mobile">
-                  <div class="column is-5">
-                    <ul class="is-size-1 is-capitalized">
-                        <li> {{ page.title }}</li>
-                    </ul>
-                  </div>
-              </div>
-              <div class="columns welcome-text is-hidden-tablet">
-                  <div class="column is-5">
-                  <ul style="padding-left: 2rem;" class="is-size-1 has-text-left is-capitalized">
+        {% endif %}
+        <div class="container">
+          <div class="content">
+            <div class="columns welcome-text is-hidden-mobile">
+                <div class="column is-5">
+                  <ul class="is-size-1 is-capitalized">
                       <li> {{ page.title }}</li>
                   </ul>
-                  </div>
-              </div>
-              <div class="columns">
-                <div class="column is-5 is-offset-5">
-                  <h2 class="subtitle" style="color: white">
-                    {{ page.subtitle }}
-                  </h2> 
                 </div>
+            </div>
+            <div class="columns welcome-text is-hidden-tablet">
+                <div class="column is-5">
+                <ul style="padding-left: 2rem;" class="is-size-1 has-text-left is-capitalized">
+                    <li> {{ page.title }}</li>
+                </ul>
+                </div>
+            </div>
+            <div class="columns">
+              <div class="column is-5 is-offset-5">
+                <h2 class="subtitle" style="color: white">
+                  {{ page.subtitle }}
+                </h2>
               </div>
             </div>
-            {{ content }}
+        </div>
+        <div class="content-spacer"></div>
+        {{ content }}
       </section>
   </div>
 </div>

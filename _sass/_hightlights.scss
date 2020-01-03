@@ -14,15 +14,23 @@
       z-index: 1;
       box-shadow: 0 2px 3px rgba(10, 10, 10, 0.5), 0 0 0 1px rgba(10, 10, 10, 0.25);
     }
+    .shortBackground {
+      height: 20rem !important;
+    }
     .container {
       z-index: 2;
+      .card {
+        .content {
+          color: $grey-dark;
+        }
+      }
       .content {
         color: $grey-light;
         .welcome-text {
           ul {
             margin: 5rem 0 0 ;
             list-style: none;
-            min-height: 15rem;
+            // min-height: 15rem;
           }
           animation: moveInBottom .5s ease-in;
         }
