@@ -20,13 +20,14 @@
         color: $grey-light;
         .welcome-text {
           ul {
-            margin: 9rem 0 0 ;
+            margin: 8rem 0 0 ;
             list-style: none;
             min-height: 15rem;
           }
           animation: moveInBottom .5s ease-in;
         }
         .welcome-cards {
+          margin: -2rem 0 0;
           .card {
             min-height: 20rem;
             background-color: $grey-light;
