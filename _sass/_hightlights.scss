@@ -28,13 +28,15 @@
         color: $grey-light;
         .welcome-text {
           ul {
-            margin: 5rem 0 0 ;
+            margin: 9rem 0 0 ;
             list-style: none;
-            // min-height: 15rem;
+            min-height: 15rem;
+            font-size: 4rem;
           }
           animation: moveInBottom .5s ease-in;
         }
         .welcome-cards {
+          margin-top: -5rem;
           .card {
             min-height: 20rem;
             background-color: $grey-light;
@@ -42,7 +44,7 @@
             transition: all .3s;
 
             &:hover {
-              transform: translateY(-.3rem);
+              transform: scale(1.02);
             }
 
             figure.image {
@@ -63,21 +65,5 @@
         }
       }
     }
-  }
-}
-
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    /* animates in x direction, more in left in beginning */
-    /* transform: translateY(30px) */
-    transform: translateY(2rem)
-  }
-
-  100% {
-    opacity: 1;
-
-    /* Looks exactly the way in which it does right now */
-    transform: translate(0)
   }
 }
