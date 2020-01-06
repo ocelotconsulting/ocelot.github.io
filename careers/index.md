@@ -2,6 +2,7 @@
 layout: page_w_header
 title:  "Careers with Ocelot"
 subtitle: "Ocelot has opportunities for developers of all skill levels utilizing many different skills and technologies"
+background: mediumBackground
 benefits:
   - title: Insurance
     icon: fa-notes-medical

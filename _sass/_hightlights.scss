@@ -17,6 +17,11 @@
     .shortBackground {
       height: 20rem !important;
     }
+
+    .mediumBackground {
+      height: 28rem !important;
+    }
+
     .container {
       z-index: 2;
       .card {
@@ -32,8 +37,15 @@
             list-style: none;
             min-height: 15rem;
             font-size: 4rem;
+            &__small-margin {
+              margin: 6rem 0 0 ;  
+            }
           }
           animation: moveInBottom .5s ease-in;
+
+          &__subtitle {
+            margin: 12rem 0 0;
+          }
         }
         .welcome-cards {
           margin-top: -5rem;
