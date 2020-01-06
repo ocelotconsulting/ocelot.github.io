@@ -12,6 +12,8 @@
 }
 
 .icon-section {
-  padding-top: 7rem;
-  padding-bottom: 2rem;
+  &--with-padding {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+  }
 }

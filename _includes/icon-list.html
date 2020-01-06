@@ -1,6 +1,10 @@
 <div id="{{ include.id }}">
   <section class="hero {{ include.section }}">
-    <div class="icon-section">
+      {% if include.padding %}
+      <div class="icon-section--with-padding ">
+      {% else" %}
+      <div class="icon-section">
+      {% endif %}
       <div class="container has-text-centered">
         <h1 class="icon-group-title">{{ include.title }}</h1>
         <div class="columns">
