@@ -3,11 +3,11 @@
     <section class="hero is-medium">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title">
+          <h1 class="title is-white">
             Begin your journey today
           </h1>
-          <h3 class="subtitle">
-            Give us a call at <a href="tel:+1314-384-3225">+1 314 384 3225</a> or send us a message.
+          <h3 class="subtitle subtitle__white">
+            Give us a call at <a href="tel:+1314-384-3225" class="subtitle__link">+1 314 384 3225</a> or send us a message.
           </h3>
           <form name="sentMessage" id="contactForm" action="https://formspree.io/info@ocelotconsulting.com" method="POST" novalidate>
             <div class="columns">
@@ -38,8 +38,51 @@
                 <input type="text" name="_gotcha" style="display:none" />
               </div>
             </div>
-            <button type="submit" class="button is-primary">Send Message</button>
+            <button type="submit" class="button button--white is-outlined">Send Message</button>
         </form>
+        </div>
+      </div>
+      
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="columns columns--top-spacing-small">
+            
+            <div class="column" style="text-align: center;">
+              <a class="button button--rounded-button" href="https://twitter.com/ocelot_llc">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+
+            <div class="column" style="text-align: center;">
+              <a class="button button--rounded-button" href="https://github.com/ocelotconsulting/">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+
+            <div class="column" style="text-align: center;">
+              <a class="button button--rounded-button" href="https://www.linkedin.com/company/ocelot-consulting-llc/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+
+            <div class="column" style="text-align: center;">
+              <a class="button button--rounded-button" href="https://www.facebook.com/ocelotconsultingllc/">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+
+            <div class="column" style="text-align: center;">
+              <a class="button button--rounded-button" href="https://www.ocelotconsulting.com/feed.xml">
+                <i class="fas fa-rss"></i>
+              </a>
+            </div>
+
+            <div class="column" style="text-align: center;">
+              <a class="button button--rounded-button" href="http://slack-registration.foxeared.com/">
+                <i class="fab fa-slack"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

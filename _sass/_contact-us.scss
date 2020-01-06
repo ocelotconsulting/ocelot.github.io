@@ -1,0 +1,22 @@
+.columns {
+    &--top-spacing-small {
+        margin-top: -4rem;
+    }
+}
+
+.subtitle {
+    padding: 1rem;
+    &__white {
+        color: white;
+    }
+
+    &__link {
+        color: white;
+        font-weight: 600;
+        transition: .3s;
+
+        &:hover {
+            color: $primary
+        }
+    }
+}
