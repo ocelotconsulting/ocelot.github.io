@@ -1,7 +1,7 @@
 ---
 layout: page_w_header
 title:  "Healthcare"
-# subtitle: "Client Sector: Managed Care and Specialty Services"
+subtitle: "Managed Care and Specialty Services"
 background: shortBackground
 ---
 
