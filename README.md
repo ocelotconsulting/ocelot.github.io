@@ -23,7 +23,7 @@
 4. Build the site and watch for changes. Using `bundle exec <cmd>` here ensures that you're using the `jekyll` version specified by `github-pages`.
 
     ```
-    bundle exec jenkins serve
+    bundle exec jekyll serve
     ```
 
 

@@ -15,15 +15,19 @@ $grey-med: #d7d7d7;
 $family-sans-serif: 'Open Sans', sans-serif; // "Nunito", sans-serif;
 $grey-dark: #404040;
 $grey-light: #f8f8f8;
+
+$grey-dark-1: #333e48;
+$grey-light-1: #516474;
+
 $primary: $orange;
-// $link: $pink;
+// $link: blue;
 // $widescreen-enabled: false;
 // $fullhd-enabled: false;
 
 $navbar-box-shadow-color: black;
 $navbar-item-color: $grey-light;
-$navbar-item-hover-color: $grey-dark;
-$navbar-item-hover-background-color: $grey-med;
+$navbar-item-hover-color: $grey-dark-1;
+$navbar-item-hover-background-color: transparent;
 $navbar-item-img-max-height: 2.75rem;
 $navbar-bottom-box-shadow-size: 0 4px 0 0;
 
@@ -32,4 +36,3 @@ $body-background-color: $grey-med;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
-

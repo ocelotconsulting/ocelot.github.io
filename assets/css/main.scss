@@ -27,6 +27,9 @@
 .nav-spacer {
   padding-top: 4rem;
 }
+.content-spacer {
+  padding-top: 5rem;
+}
 
 /* The following were added to support the old
  * blog posts. They can be re-thought in the future
@@ -41,8 +44,14 @@
   vertical-align: middle;
 }
 
+@import "_animations";
 @import "_common";
 @import "_nav";
 @import "_hightlights";
 @import "_page-contents";
 @import "_home";
+@import "_shared";
+@import "_button";
+@import "_heading-text";
+@import "_video-collage";
+@import "_contact-us";
