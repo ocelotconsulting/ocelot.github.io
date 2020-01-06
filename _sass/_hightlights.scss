@@ -48,7 +48,9 @@
           }
         }
         .welcome-cards {
-          margin-top: -5rem;
+          &--moved-up {
+            margin-top: -5rem;
+          }
           .card {
             min-height: 20rem;
             background-color: $grey-light;

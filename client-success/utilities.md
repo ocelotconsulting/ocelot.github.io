@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: page_w_header
 title:  "Utilities"
+subtitle: "Power & Energy Provider"
+background: shortBackground
 ---
-<img src="/assets/images/UT-header.png" alt="divider" width="2200" height="300"/>
 
 ### Ocelot has partnered with a fortune 500 Client to improve customer-facing solutions, improve performance and cloud adoption, and drive advanced analytics capabilities.  As part of the deliverables to date, we have:
 
@@ -20,8 +21,6 @@ title:  "Utilities"
 - Drive cross collaboration with client to increase knowledge base with skill sets that Ocelot has (Docker, AWS, Terraform, web-dev)
 - Implemented a custom authorizer via Lambda in an API Gateway against client's Authentication Proxy
 - Designed Organization Structure, adding Service Control Policies implementing boundaries across all accounts
-
-<img src="/assets/images/div2.png" alt="divider" width="1500" height="30"/>
 
 ### Expertise Demonstrated
 

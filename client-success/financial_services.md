@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: page_w_header
 title:  "Financial Services"
+subtitle: "Insurance & Actuarial Solutions"
+background: shortBackground
 ---
-<img src="/assets/images/FS-header.png" alt="divider" width="2200" height="300"/>
 
 ### Ocelot was tasked with accelerating cloud adoption and modernization of infrastructure for a fortune 500 Client.  As part of the deliverables to date, we have:
 
@@ -14,8 +15,6 @@ title:  "Financial Services"
 - Provided architectural insight for application security patterns and streamlined adoption of cloud security best practices
 - Continually advise on new security improvements while promoting stability and performance
 - Helped establish centralized cloud operations team, along with SOPs and automation patterns that can be leveraged across all client cloud infrastructures
-
-<img src="/assets/images/div2.png" alt="divider" width="1500" height="30"/>
 
 ### Expertise Demonstrated:
 
