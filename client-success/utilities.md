@@ -1,7 +1,7 @@
 ---
 layout: page_w_header
 title:  "Utilities"
-subtitle: "Client Sector: Power & Energy Provider"
+subtitle: "Power & Energy Provider"
 background: shortBackground
 ---
 
