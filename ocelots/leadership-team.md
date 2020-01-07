@@ -1,10 +1,9 @@
 ---
-layout: page_w_tables
+layout: page_w_image_subtitle
 title: "Founding Members and Owners"
----
-
-<img src="/assets/images/logo-banner.png" alt="divider" width="4000" height="500"/>
-
+image: "/assets/images/ocelot.svg"
+imageWidth: "250"
+imageHeight: "250"
 ---
 
 <img src="/assets/images/tyler.jpg" alt="divider" width="160" height="160" hspace="10"/> <img src="/assets/images/coffman.jpg" alt="divider" width="160" height="160" hspace="10"/> <img src="/assets/images/larry.jpg" alt="divider" width="160" height="160" hspace="10"/> <img src="/assets/images/john.jpg" alt="divider" width="160" height="160" hspace="10"/> <img src="/assets/images/patrick.jpg" alt="divider" width="160" height="160" hspace="10"/> <img src="/assets/images/derek.jpg" alt="divider" width="160" height="160" hspace="10"/> <img src="/assets/images/weaver.jpg" alt="divider" width="160" height="160" hspace="10"/>
