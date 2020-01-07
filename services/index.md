@@ -1,9 +1,50 @@
 ---
-layout: page_w_tables
-title: "What We Offer"
+layout: page_w_header
+title:  "Services"
+subtitle: "We do a lot of stuff"
+background: mediumBackground
+services: 
+  - title: Cloud Technologies
+    icon: fas fa-database
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus proin nibh nisl condimentum id venenatis a. Orci ac auctor augue mauris augue neque gravida."
+  - title: Analytics
+    icon: fas fa-water
+    subtitle: "Sed sed risus pretium quam vulputate dignissim suspendisse. Enim praesent elementum facilisis leo vel fringilla est ullamcorper.  Eget velit aliquet sagittis id consectetur purus ut."
+  - title: Enterprise Security
+    subtitle: "Tincidunt arcu non sodales neque sodales ut etiam sit amet. Quisque sagittis purus sit amet volutpat consequat mauris nunc congue. Et tortor consequat id porta."
+  - title: Data
+    icon: fas fa-key
+    subtitle: "Lorem ipsum dolor sit amet. Viverra maecenas accumsan lacus vel facilisis volutpat est. Pellentesque nec nam aliquam sem et. Turpis egestas integer eget aliquet nibh praesent tristique magna."
 ---
 
-<div id="cloud">
+<!-- {% include overlapping-card-list.html id="services-1" section="is-medium" details=page.services %} -->
+
+<div class="columns is-centered">
+	<div class="column is-half">
+		<div class="info-card">
+			<div class="info-card__image"></div>
+			<div class="info-card__title">
+				Hello
+			</div>
+			<div class="info-card__subtitle">
+				Hello
+			</div>
+		</div>
+	</div>
+	<div class="column is-half">
+		<div class="info-card">
+			<div class="info-card__image"></div>
+			<div class="info-card__title">
+				Hello
+			</div>
+			<div class="info-card__subtitle">
+				Hello
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- <div id="cloud">
      <div class="box">
         <div class="imgBox">
 			<img src="/assets/images/cloud2.png" alt="divider" align="middle" width="2000" style="padding: 10px;"/>
@@ -144,4 +185,4 @@ title: "What We Offer"
 		</div>
 	</div>
 </div>
-
+ -->

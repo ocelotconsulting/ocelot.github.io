@@ -1,0 +1,12 @@
+<div id="{{ include.id }}">
+  <section class="hero {{ include.section }}">
+    <div class="columns">
+      {% for detail in include.details %}
+      <div class="column">
+        {{ detail.title }}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+  
