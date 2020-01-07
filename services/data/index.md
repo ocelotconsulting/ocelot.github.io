@@ -47,7 +47,9 @@ dataquality:
 
 {% include icon-list.html title="Master Data" id="cloud-technology-services" section="is-medium" icons=page.masterdata subtitle="As part of any master data discipline, rules are developed for how information from sources is combined, cleaned, and reviewed. The “mastered” information sources are then made available to additional applications or analytics and ensure a level of rigor and quality has been applied upstream."%}
 
-{% include icon-list.html title="Data Quality" id="cloud-technology-services" section="is-medium" icons=page.dataquality padding="true" subtitle="All of our employees are skilled in multiple facets of cloud strategy, methodology, cost optimization, and security that factor into the following products we offer."%}
+{% include icon-list.html title="Data Quality" id="cloud-technology-services" section="is-medium" icons=page.dataquality padding="true" subtitle="You wouldn’t want to drink water that was only 95% clean, as without understanding what the other 5% is you might be making a horrible decision. 
+				The same is true for data. The goal is not necessarily to remove or fix all the “bad” data but can also be to understand and quantify the cause or impact of the issues. 
+				With this additional knowledge in hand, organizations can make an educated decision on remediating data issues or can mark certain data sets based on their quality."%}
 
 
 <!-- <div id="data">
