@@ -20,7 +20,6 @@ background: mediumBackground
             <div class="media">
               <div class="media-content">
                 <p class="title is-4">Healthcare</p>
-                <p class="subtitle is-6">Sub-title</p>
               </div>
             </div>
             <div class="content">
@@ -43,7 +42,6 @@ background: mediumBackground
             <div class="media">
               <div class="media-content">
                 <p class="title is-4">Utilities</p>
-                <p class="subtitle is-6">Sub-title</p>
               </div>
             </div>
             <div class="content">
@@ -66,7 +64,6 @@ background: mediumBackground
             <div class="media">
               <div class="media-content">
                 <p class="title is-4">Financial Services</p>
-                <p class="subtitle is-6">Sub-title</p>
               </div>
             </div>
             <div class="content">
@@ -91,7 +88,6 @@ background: mediumBackground
             <div class="media">
               <div class="media-content">
                 <p class="title is-4">Telecom</p>
-                <p class="subtitle is-6">Sub-title</p>
               </div>
             </div>
             <div class="content">
@@ -114,7 +110,6 @@ background: mediumBackground
             <div class="media">
               <div class="media-content">
                 <p class="title is-4">Travel</p>
-                <p class="subtitle is-6">Sub-title</p>
               </div>
             </div>
             <div class="content">
@@ -136,8 +131,7 @@ background: mediumBackground
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Human Resources</p>
-                <p class="subtitle is-6">Sub-title</p>
+                <p class="title is-4">HR</p>
               </div>
             </div>
             <div class="content">
