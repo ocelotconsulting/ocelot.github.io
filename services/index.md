@@ -130,11 +130,15 @@ title: "What We Offer"
 			</p>
 			<p>
 				<b>Ocelot offers the following engagements for <i>Audit, Security and Compliance:</i></b>
-					<li>Develop business cases for compliance, data lineage creation,  and usage for audits</li>
+					<li>Develop business cases for compliance, data lineage creation, and usage for audits</li>
+
 					<li>Identify current processes and methods for sharing current IT standards and policies</li>
 					<li>Define metrics and measures to ensure adherence to governance policies</li>
+					
 					<li>Advise ways to construct lineage from existing platforms and applications, as well as support addition of new applications and platforms over time</li>
+					
 					<li>Identify analytics that can be driven from lineage data to advise audit/compliance functions as to potential risks</li>
+					
 					<li>Develop methods and automation to monitor data access and usage</li>
 			</p>
 		</div>

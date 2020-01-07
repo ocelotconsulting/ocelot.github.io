@@ -3,39 +3,55 @@ layout: page_w_header
 title:  "Enterprise Security"
 subtitle: "Your data is important. Our experts will ensure that your business is secure."
 background: mediumBackground
-benefits:
-  - title: Data Migrations to Cloud
+engagements:
+  - title: Audit
     icon: fas fa-database
-    description: "The health of you and your family is important and we want to help you assure that. We offer a number of plans with health, dental, optical, and life insurance for you and your family."
-  - title: Data Lake Design and Deployment
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus proin nibh nisl condimentum id venenatis a. Orci ac auctor augue mauris augue neque gravida."
+  - title: Security
     icon: fas fa-water
-    description: "We all deserve a break now and again. At Ocelot we strive for a healthy work life balance and believe that offering paid vacation time is an important piece of that."
-  - title: Automation of Data Ingest into Lake
+    description: "Sed sed risus pretium quam vulputate dignissim suspendisse. Enim praesent elementum facilisis leo vel fringilla est ullamcorper. Quisque sagittis purus sit amet volutpat consequat mauris nunc congue."
+  - title: Compliance
     icon: fas fa-industry
-    description: "Saving for the future is important and at Ocelot we want to help you secure it by offering retirement accounts and company matching."
-  - title: Custom API Development for Secure Cloud Access
-    icon: fas fa-key
-    description: "Your time is valuable and if you choose to spend extra with us we want to show our appreciation for that."
+    description: "Et tortor consequat id porta. Lorem ipsum dolor sit amet. Viverra maecenas accumsan lacus vel facilisis volutpat est. Pellentesque nec nam aliquam sem et. Turpis egestas integer eget aliquet nibh praesent tristique magna."
 ---
-<div class="columns is-centered icon-section--with-padding">
-    <div class="column is-three-quarters">
-        <div class="subtitle subtitle__spacing-medium" style="text-align: center;">
-            All of our employees are skilled in multiple facets of cloud strategy, methodology, cost optimization, and security that factor into the following products we offer.
-        </div>
-        <div class="columns is-centered" style="text-align: center;">
-          <p class="column is-two-thirds">
-              Whether your company is wanting to leverage a cloud environment for the first time, expand an existing deployment, or modernize the flow between on premise and cloud systems, we have engineers that have successfully done it all.  Depending on the needs of the client, we can fine tune deliverables and deployments to suit nearly any cloud architecture need.
-          </p>
-        </div>
-    </div>
-</div>
 
-{% include icon-list.html title="How We Can Help" id="cloud-technology-services" section="is-medium" icons=page.benefits padding="true" %}
+{% include icon-list.html title="How We Can Help" id="cloud-technology-services" section="is-medium" icons=page.engagements padding="true" subtitle="The ability of companies to track their information and ensure adherence to both corporate and government policies is a powerful risk mitigation capability that promotes security while preventing large fines and erosion of customer trust that can happen during a breach. Ocelot offers the following engagements: "%}
 
 <br/>
 <div class="columns is-centered">  
   <div class="column is-half" style="text-align:center">
-    <a href="/services" class="button is-primary is-outlined">Get Started Today</a>
+    <a href="/#contact" class="button is-primary is-outlined">Get Started Today</a>
   </div>
 </div>
     
+<!-- <div id="security">
+	<div class="box">
+        <div class="imgBox">
+			<img src="/assets/images/security.png" alt="divider" width="2000" align="middle" style="padding: 10px;"/>
+		</div>
+    <div class="content">
+		<h3>The last several years has seen more need for personal information transparency and the ability to track information more than ever. To compliment consumer privacy requests, 
+		legislation has been passed that dictates how customer information must be handled and secured. Sarbenes Oxley (SOX), General Data Protection Regulation (GDPR), 
+		and even Health Insurance Portability and Accountability Act (HIPAA) have dramatically influenced the information technology landscape and require a new level of data security and audit capabilities.  
+		</h3>
+			<p>
+				<b>Audit, Security and Compliance:</b> The ability of companies to track their information and ensure adherence to both corporate and government policies is a powerful risk mitigation capability that 
+				promotes security while preventing large fines and erosion of customer trust that can hyappen during a breach.
+			</p>
+			<p>
+				<b>Ocelot offers the following engagements for <i>Audit, Security and Compliance:</i></b>
+					<li>Develop business cases for compliance, data lineage creation, and usage for audits</li>
+
+					<li>Identify current processes and methods for sharing current IT standards and policies</li>
+					<li>Define metrics and measures to ensure adherence to governance policies</li>
+					
+					<li>Advise ways to construct lineage from existing platforms and applications, as well as support addition of new applications and platforms over time</li>
+					
+					<li>Identify analytics that can be driven from lineage data to advise audit/compliance functions as to potential risks</li>
+					
+					<li>Develop methods and automation to monitor data access and usage</li>
+			</p>
+		</div>
+	</div>
+</div> -->
+
