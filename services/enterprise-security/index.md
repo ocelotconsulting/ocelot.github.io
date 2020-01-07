@@ -1,7 +1,7 @@
 ---
 layout: page_w_header
-title:  "Cloud Technologies"
-subtitle: "Cloud services and architecture are a core area of expertise for Ocelot."
+title:  "Enterprise Security"
+subtitle: "Your data is important. Our experts will ensure that your business is secure."
 background: mediumBackground
 benefits:
   - title: Data Migrations to Cloud
@@ -17,9 +17,20 @@ benefits:
     icon: fas fa-key
     description: "Your time is valuable and if you choose to spend extra with us we want to show our appreciation for that."
 ---
+<div class="columns is-centered icon-section--with-padding">
+    <div class="column is-three-quarters">
+        <div class="subtitle subtitle__spacing-medium" style="text-align: center;">
+            All of our employees are skilled in multiple facets of cloud strategy, methodology, cost optimization, and security that factor into the following products we offer.
+        </div>
+        <div class="columns is-centered" style="text-align: center;">
+          <p class="column is-two-thirds">
+              Whether your company is wanting to leverage a cloud environment for the first time, expand an existing deployment, or modernize the flow between on premise and cloud systems, we have engineers that have successfully done it all.  Depending on the needs of the client, we can fine tune deliverables and deployments to suit nearly any cloud architecture need.
+          </p>
+        </div>
+    </div>
+</div>
 
-
-{% include icon-list.html title="How We Can Help" id="cloud-technology-services" section="is-medium" icons=page.benefits padding="true" subtitle="All of our employees are skilled in multiple facets of cloud strategy, methodology, cost optimization, and security that factor into the following products we offer."%}
+{% include icon-list.html title="How We Can Help" id="cloud-technology-services" section="is-medium" icons=page.benefits padding="true" %}
 
 <br/>
 <div class="columns is-centered">  
@@ -28,12 +39,3 @@ benefits:
   </div>
 </div>
     
-
-<!-- <div class="columns is-centered icon-section--with-padding">
-    <div class=""></div>
-    <div class="column is-two-thirds">
-        <div class="subtitle subtitle__spacing-medium" style="text-align: center;">
-            Whether your company is wanting to leverage a cloud environment for the first time, expand an existing deployment, or modernize the flow between on premise and cloud systems, we have engineers that have successfully done it all.  Depending on the needs of the client, we can fine tune deliverables and deployments to suit nearly any cloud architecture need.
-        </div>
-    </div>
-</div> -->
