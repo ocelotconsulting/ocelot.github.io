@@ -1,7 +1,7 @@
 ---
 layout: page_w_header
 title:  "Services"
-subtitle: "We do a lot of stuff"
+subtitle: "Ocelot ensures an expertise in a variety of different fields in order to best accommodate for your modern business"
 background: mediumBackground
 services: 
   - title: Cloud Technologies
@@ -18,67 +18,75 @@ services:
 ---
 <div class="columns is-centered">
 	<div class="column is-half">
-		<div class="info-card">
-			<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #63A4FF, transparent), url(/assets/images/cloud-technologies.jpg"></div>
-			<div class="info-card__title">
-				<div class="info-card__text">
-					Cloud
+		<a href="/services/cloud-technologies">
+			<div class="info-card">
+				<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #63A4FF, transparent), url(/assets/images/cloud-technologies.jpg"></div>
+				<div class="info-card__title">
+					<div class="info-card__text">
+						Cloud
+					</div>
+				</div>
+				<div class="info-card__subtitle">
+					<div class="info-card__sub-text">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab
+					</div>
 				</div>
 			</div>
-			<div class="info-card__subtitle">
-				<div class="info-card__sub-text">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab
-				</div>
-			</div>
-		</div>
+		</a>
 	</div>
 	<div class="column is-half">
-		<div class="info-card">
-			<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #77b582, transparent), url(/assets/images/magnifying-glass.jpg"></div>
-			<div class="info-card__title">
-				<div class="info-card__text">
-					Analytics
+		<a href="/services/analytics">
+			<div class="info-card">
+				<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #77b582, transparent), url(/assets/images/magnifying-glass.jpg"></div>
+				<div class="info-card__title">
+					<div class="info-card__text">
+						Analytics
+					</div>
+				</div>
+				<div class="info-card__subtitle">
+					<div class="info-card__sub-text">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab
+					</div>
 				</div>
 			</div>
-			<div class="info-card__subtitle">
-				<div class="info-card__sub-text">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab
-				</div>
-			</div>
-		</div>
+		</a>
 	</div>
 </div>
 
 <div class="columns is-centered">
 	<div class="column is-half">
-		<div class="info-card">
-			<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #404040, transparent), url(/assets/images/data.jpg"></div>
-			<div class="info-card__title">
-				<div class="info-card__text">
-					Data
+		<a href="/services/data">
+			<div class="info-card">
+				<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #404040, transparent), url(/assets/images/data.jpg"></div>
+				<div class="info-card__title">
+					<div class="info-card__text">
+						Data
+					</div>
+				</div>
+				<div class="info-card__subtitle">
+					<div class="info-card__sub-text">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab
+					</div>
 				</div>
 			</div>
-			<div class="info-card__subtitle">
-				<div class="info-card__sub-text">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab
-				</div>
-			</div>
-		</div>
+		</a>
 	</div>
 	<div class="column is-half">
-		<div class="info-card">
-			<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #966b4e, transparent), url(/assets/images/security.jpg"></div>
-			<div class="info-card__title">
-				<div class="info-card__text">
-					Security
+		<a href="/services/enterprise-security">
+			<div class="info-card">
+				<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #966b4e, transparent), url(/assets/images/security.jpg"></div>
+				<div class="info-card__title">
+					<div class="info-card__text">
+						Security
+					</div>
+				</div>
+				<div class="info-card__subtitle">
+					<div class="info-card__sub-text">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab
+					</div>
 				</div>
 			</div>
-			<div class="info-card__subtitle">
-				<div class="info-card__sub-text">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab
-				</div>
-			</div>
-		</div>
+		</a>
 	</div>
 </div>
 
