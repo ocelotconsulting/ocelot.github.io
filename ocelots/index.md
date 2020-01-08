@@ -1,10 +1,15 @@
 ---
-layout: page_w_tables
+layout: page_w_image_subtitle
+title: Meet the Ocelots
+image: "/assets/images/team-photo-2019-03-07.jpg"
+imageWidth: "700"
+imageHeight: "100"
+topMargin: "1rem"
+background: mediumBackground
 
 ---
-<img src="/assets/images/ocelot-2019-banner.png" alt="divider" width="3500" height="752"/>
 
-## Our Story
+<!-- ## Our Story
 
 To understand what makes Ocelot different, you have to start at the beginning. Ocelot was founded in 2016 by four colleagues who worked together at a large corporation here in St. Louis. Having successfully helped that company modernize on multiple fronts - agility, modern web development, migration to public cloud, DevOps, API's and microservices - they saw an opportunity to share those experiences with other companies in the region.
 
@@ -58,7 +63,7 @@ It's not easy to find talent that checks all those boxes. The good news is - whe
 *And of course, making sure our friends and employees stay well fed*
 
 <img src="/assets/images/tasteofstl.png" alt="divider" width="3500" height="752"/>
-
+ -->
 
 
 

@@ -15,12 +15,12 @@
         <div class="container">
           <div class="content">
             <div class="columns welcome-text is-hidden-mobile">
-              <div class="column is-9">
-                <ul class="is-size-1 is-capitalized welcome-text__small-margin">
+              <div class="column is-5">
+                <ul class="is-size-1 welcome-text__small-margin">
                   <li> {{ page.title }}</li>
                 </ul>
               </div>
-              <div class="column" style="margin-top: 3rem">
+              <div class="column" style="margin-top: {{ page.topMargin }}">
                 <img src="{{ page.image }}" width="{{ page.imageWidth }}" height="{{ page.imageHeight }}" />
               </div>
             </div>
