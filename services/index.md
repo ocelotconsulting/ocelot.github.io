@@ -5,7 +5,7 @@ subtitle: "We do a lot of stuff"
 background: mediumBackground
 services: 
   - title: Cloud Technologies
-    icon: fas fa-database
+    icon: "background-image: linear-gradient(to right bottom, #63A4FF, transparent), url(/assets/images/cloud-technologies.jpg"
     subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus proin nibh nisl condimentum id venenatis a. Orci ac auctor augue mauris augue neque gravida."
   - title: Analytics
     icon: fas fa-water
@@ -16,9 +16,7 @@ services:
     icon: fas fa-key
     subtitle: "Lorem ipsum dolor sit amet. Viverra maecenas accumsan lacus vel facilisis volutpat est. Pellentesque nec nam aliquam sem et. Turpis egestas integer eget aliquet nibh praesent tristique magna."
 ---
-
-<!-- {% include overlapping-card-list.html id="services-1" section="is-medium" details=page.services %} -->
-
+<div class=">
 <div class="columns is-centered">
 	<div class="column is-half">
 		<div class="info-card">
@@ -30,19 +28,55 @@ services:
 			</div>
 			<div class="info-card__subtitle">
 				<div class="info-card__sub-text">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab inventore dolorem aspernatur eveniet reprehenderit, iste unde?
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="column is-half">
 		<div class="info-card">
-			<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #63A4FF, transparent), url(/assets/images/cloud2.png"></div>
+			<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #77b582, transparent), url(/assets/images/magnifying-glass.jpg"></div>
 			<div class="info-card__title">
+				<div class="info-card__text">
+					Analytics
+				</div>
 			</div>
 			<div class="info-card__subtitle">
 				<div class="info-card__sub-text">
-					Hello
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="columns is-centered">
+	<div class="column is-half">
+		<div class="info-card">
+			<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #404040, transparent), url(/assets/images/data.jpg"></div>
+			<div class="info-card__title">
+				<div class="info-card__text">
+					Data
+				</div>
+			</div>
+			<div class="info-card__subtitle">
+				<div class="info-card__sub-text">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="column is-half">
+		<div class="info-card">
+			<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #966b4e, transparent), url(/assets/images/security.jpg"></div>
+			<div class="info-card__title">
+				<div class="info-card__text">
+					Security
+				</div>
+			</div>
+			<div class="info-card__subtitle">
+				<div class="info-card__sub-text">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab
 				</div>
 			</div>
 		</div>
