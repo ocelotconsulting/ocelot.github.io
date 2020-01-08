@@ -3,7 +3,7 @@ layout: page_w_header
 title:  "Analytics"
 subtitle: "Finding the truth in data is difficult. Our experts will make sure that you get the most out of your data."
 background: mediumBackground
-benefits:
+services:
   - title: Data Migrations to Cloud
     icon: fas fa-database
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus proin nibh nisl condimentum id venenatis a. Orci ac auctor augue mauris augue neque gravida."
@@ -19,7 +19,7 @@ benefits:
 ---
 
 
-{% include icon-list.html title="How We Can Help" id="cloud-technology-services" section="is-medium" icons=page.benefits padding="true" subtitle="All of our employees are skilled in multiple facets of cloud strategy, methodology, cost optimization, and security that factor into the following products we offer."%}
+{% include icon-list.html title="How We Can Help" id="cloud-technology-services" section="is-medium" icons=page.services padding="true" subtitle="All of our employees are skilled in multiple facets of cloud strategy, methodology, cost optimization, and security that factor into the following products we offer."%}
 
 <br/>
 <div class="columns is-centered">  
