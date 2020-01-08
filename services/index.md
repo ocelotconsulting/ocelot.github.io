@@ -16,7 +16,6 @@ services:
     icon: fas fa-key
     subtitle: "Lorem ipsum dolor sit amet. Viverra maecenas accumsan lacus vel facilisis volutpat est. Pellentesque nec nam aliquam sem et. Turpis egestas integer eget aliquet nibh praesent tristique magna."
 ---
-<div class=">
 <div class="columns is-centered">
 	<div class="column is-half">
 		<div class="info-card">
