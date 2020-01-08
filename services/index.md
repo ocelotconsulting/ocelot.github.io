@@ -22,23 +22,28 @@ services:
 <div class="columns is-centered">
 	<div class="column is-half">
 		<div class="info-card">
-			<div class="info-card__image"></div>
+			<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #63A4FF, transparent), url(/assets/images/cloud-technologies.jpg"></div>
 			<div class="info-card__title">
-				Hello
+				<div class="info-card__text">
+					Cloud
+				</div>
 			</div>
 			<div class="info-card__subtitle">
-				Hello
+				<div class="info-card__sub-text">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime soluta assumenda necessitatibus aspernatur quos consectetur adipisci laboriosam corporis. Animi fugit in voluptate ab inventore dolorem aspernatur eveniet reprehenderit, iste unde?
+				</div>
 			</div>
 		</div>
 	</div>
 	<div class="column is-half">
 		<div class="info-card">
-			<div class="info-card__image"></div>
+			<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #63A4FF, transparent), url(/assets/images/cloud2.png"></div>
 			<div class="info-card__title">
-				Hello
 			</div>
 			<div class="info-card__subtitle">
-				Hello
+				<div class="info-card__sub-text">
+					Hello
+				</div>
 			</div>
 		</div>
 	</div>
