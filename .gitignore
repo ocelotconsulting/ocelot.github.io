@@ -1,4 +1,6 @@
 .sass-cache
 _site*
 .jekyll*
-.DS_Store*
+
+# Stupid mac file
+*.DS_Store
