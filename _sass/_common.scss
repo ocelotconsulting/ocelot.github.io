@@ -21,6 +21,12 @@ section.grey-dark-1 {
   margin-top: -8rem;
 }
 
+columns {
+  .padding-bottom {
+    margin-top: 2rem;
+  }
+}
+
 .hero {
   &--dark-background {
     background-color: #eeeeee;

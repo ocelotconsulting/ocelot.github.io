@@ -1,5 +1,12 @@
 .icon-title {
-  padding-top: 2rem;
+  &--padding-top {
+    padding-top: 2rem;
+  }
+
+  &--padding-bottom {
+    padding-bottom: 1rem;
+  }
+
   font-weight: bold;
 }
 
@@ -105,4 +112,8 @@
     background-size: cover;
     transition: filter .3s;
   }
+}
+
+.image-card {
+  
 }
