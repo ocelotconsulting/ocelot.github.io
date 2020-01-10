@@ -1,6 +1,6 @@
 ---
 layout: page_w_header
-title:  "client success"
+title:  "Client Success"
 subtitle: "Ocelot carries a legacy of highly successful partnerships in multiple industries"
 background: mediumBackground
 ---
