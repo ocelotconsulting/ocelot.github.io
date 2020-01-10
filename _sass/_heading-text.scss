@@ -3,12 +3,20 @@
         // padding: 0 20rem 0 20rem;
         font-size: 1.5rem;
         line-height: 2rem;
+        
+        &--white {
+            color: white;
+        }
     }
 
     &__spacing-small {
         padding: 0 5rem 0 5rem;
         font-size: 1.5rem;
         line-height: 2rem;
+        
+        &--white {
+            color: white;
+        }
     }
 }
 
@@ -18,11 +26,19 @@
         // padding: 0 20rem 0 20rem;
         font-size: 2.5rem;
         word-break: keep-all;
+
+        &--white {
+            color: white;
+        }
     }
 
     &__spacing-small {
         padding: 0 5rem 0 5rem;
         font-size: 2.5rem;
         word-break: keep-all;
+
+        &--white {
+            color: white;
+        }
     }
 }

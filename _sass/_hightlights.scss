@@ -49,15 +49,12 @@
         color: $grey-light;
         .welcome-text {
           ul {
-            margin: 15rem 0 0 ;
+            margin: 6rem 0 0 ;
             list-style: none;
             min-height: 15rem;
             font-size: 4rem;
             text-transform: uppercase;
             letter-spacing: 1rem;
-            &__small-margin {
-              margin: 6rem 0 0 ;  
-            }
           }
           animation: moveInBottom .5s ease-in;
 
@@ -72,7 +69,7 @@
 
           margin-top: -5rem;
           &--with-height {
-            height: 15rem;
+            height: 10rem;
           }
           
           .card {
