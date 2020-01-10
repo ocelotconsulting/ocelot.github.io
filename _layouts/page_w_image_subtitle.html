@@ -16,14 +16,12 @@
           <div class="content">
             <div class="columns welcome-text is-hidden-mobile">
               <div class="column is-5">
-                <ul class="is-size-1">
+                <ul class="is-size-1 welcome-text__small-margin">
                   <li> {{ page.title }}</li>
                 </ul>
               </div>
-              <div class="column">
-                <h2 class="subtitle welcome-text__subtitle" style="color: white">
-                  {{ page.subtitle }}
-                </h2>
+              <div class="column" style="margin-top: {{ page.topMargin }}">
+                <img src="{{ page.image }}" width="{{ page.imageWidth }}" height="{{ page.imageHeight }}" />
               </div>
             </div>
             <div class="columns welcome-text is-hidden-tablet">
