@@ -1,13 +1,13 @@
 ---
 layout: page_w_header
-title:  "How we've helped to transform our clients"
+title:  "client success"
 subtitle: "Ocelot carries a legacy of highly successful partnerships in multiple industries"
 background: mediumBackground
 ---
 
 <div class="container">
   <div class="content">
-    <div class="columns welcome-cards welcome-cards--moved-up">
+    <div class="columns welcome-cards">
       <div class="column is-one-third">
         <a href="/client-success/healthcare.html">
         <div class="card">
