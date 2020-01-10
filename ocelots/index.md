@@ -33,7 +33,7 @@ background: mediumBackground
     </section>
   </div>
   <div id="our-mission">
-    <section class="hero">
+    <section class="hero hero--dark-background">
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="columns is-vcentered">
@@ -77,7 +77,7 @@ background: mediumBackground
     </section>
   </div>
     <div id="our-mission">
-    <section class="hero is-small">
+    <section class="hero hero--dark-background is-small">
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="columns is-vcentered">
