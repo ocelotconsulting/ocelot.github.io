@@ -34,9 +34,9 @@ culture:
     description: "We pride ourselves on building strong, lasting relationships with our clients as we provide them the highest quality software possible"
 ---
 
-{% include icon-list.html title="Culture" id="culture" section="is-medium" icons=page.culture %}
+{% include icon-list.html title="Culture" id="culture" section="is-medium" icons=page.culture padding="true" %}
 
-{% include icon-list.html title="Benefits" id="benefits" section="is-medium" icons=page.benefits %}
+{% include icon-list.html title="Benefits" id="benefits" section="is-medium" icons=page.benefits padding="true" %}
 
 <section class="hero is-medium">
   <div class="hero-body">
