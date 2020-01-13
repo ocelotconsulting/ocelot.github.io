@@ -12,7 +12,7 @@ background: mediumBackground
 {% assign limit = offset | minus: 3 %}
 {% if forloop.first %}
 {% for post in site.posts limit:3 offset:0 %}
-<a href="{{ post.url | prepend: site.baseurl }}"></a>
+<a href="{{ post.url | prepend: site.baseurl }}">
   <div class="tile is-parent" style="background-image: url;">
     <article class="tile is-child box">
       <h2 class="post-title">
