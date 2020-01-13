@@ -1,10 +1,50 @@
 ---
-layout: blog
-title: Ocelot Consulting
-subTitle: Blog
+layout: page_w_header
+title:  "Blog"
+subtitle: "Ocelot has opportunities for developers of all skill levels utilizing many different skills and technologies"
+background: mediumBackground
 ---
 
-<section id="blog-preview">
+{% assign rows = site.posts.size | divided_by: 3.0 | ceil %}
+{% for i in (0..rows) %}
+<div class="tile is-ancestor">
+{% assign offset = i | times: 3.0 %}
+{% assign limit = offset | minus: 3 %}
+{% if forloop.first %}
+{% for post in site.posts limit:3 offset:0 %}
+<a href="{{ post.url | prepend: site.baseurl }}">
+  <div class="tile is-parent" style="background-image: url;">
+    <article class="tile is-child box">
+      <h2 class="post-title">
+        {{ post.title }}
+      </h2>
+      <h3 class="post-subtitle">
+          {{ post.subtitle }}
+      </h3>
+    </article>
+  </div>
+</a>
+{% endfor %}
+{% else %}
+{% for post in site.posts limit:3 offset:offset %}
+<a href="{{ post.url | prepend: site.baseurl }}">
+  <div class="tile is-parent" style="background-image: url;">
+    <article class="tile is-child box">
+      <h2 class="post-title">
+        {{ post.title }}
+      </h2>
+      <h3 class="post-subtitle">
+          {{ post.subtitle }}
+      </h3>
+    </article>
+  </div>
+</a>
+{% endfor %}
+{% endif %}
+</div>
+{% endfor %}
+
+<!-- <section id="blog-preview">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -25,7 +65,7 @@ subTitle: Blog
         <hr>
         {% endfor %}
 
-        <!-- Pager -->
+
         {% if paginator.total_pages > 1 and paginator.total_posts > 1 %}
         <ul class="pager">
             {% if paginator.previous_page %}
@@ -43,4 +83,4 @@ subTitle: Blog
       </div>
     </div>
   </div>
-</section>
+</section> -->
