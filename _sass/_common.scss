@@ -30,9 +30,22 @@ columns {
 .hero {
   &--dark-background {
     background-color: #eeeeee;
+    transform: skewY(5deg);
+    margin-top: -5rem;
   }
 
   &--light-background {
     background-color: #F8F8F8;
+  }
+
+  &--light-background-with-space {
+    background-color: #F8F8F8;
+    margin-top: -5rem;
+  }
+}
+
+.hero-body {
+  &--dark-background {
+    transform: skewY(-5deg);
   }
 }
