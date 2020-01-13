@@ -1,5 +1,6 @@
 ---
-layout:      post
+layout:      posts
+background:  shortBackground
 title:       "Securing CloudFront"
 subtitle:    "Secure, scalable and worry free websites"
 date:        2016-10-03 00:00:00

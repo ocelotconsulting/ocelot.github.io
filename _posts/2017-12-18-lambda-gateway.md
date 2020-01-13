@@ -1,5 +1,6 @@
 ---
-layout:      post
+layout:      posts
+background:  shortBackground
 title:       "AWS Lambda + API Gateway"
 subtitle:    "Simple Deployment via CloudFormation"
 date:        2017-12-18 09:45:00

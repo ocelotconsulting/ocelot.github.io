@@ -1,5 +1,6 @@
 ---
-layout:      post
+layout:      posts
+background:  shortBackground
 title:       "Check out Artem's Blog"
 date:        2019-02-18 15:05:00
 author:      "John O'Malley"

@@ -1,5 +1,6 @@
 ---
-layout:      post
+layout:      posts
+background:  shortBackground
 title:       "Launching Ocelot"
 subtitle:    "Ocelot Consulting introduction"
 date:        2016-09-22 09:05:00

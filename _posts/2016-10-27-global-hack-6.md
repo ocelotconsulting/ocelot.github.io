@@ -1,5 +1,6 @@
 ---
-layout:      post
+layout:      posts
+background:  shortBackground
 title:       "GlobalHack VI"
 subtitle:    "Caffeine, Coding, and Contributing for a Cause"
 date:        2016-10-27 08:00:00

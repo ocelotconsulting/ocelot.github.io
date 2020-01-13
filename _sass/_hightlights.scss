@@ -38,6 +38,9 @@
 
     .container {
       z-index: 2;
+      &--padding {
+        padding-top: 6rem;
+      }
       .card {
         .content {
           color: $grey-dark;
@@ -58,6 +61,7 @@
 
           &__subtitle {
             margin: 12rem 0 0;
+            color: white;
           }
         }
         .welcome-cards {
