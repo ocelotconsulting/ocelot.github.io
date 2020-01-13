@@ -1,5 +1,7 @@
 ---
-layout:          post
+layout:          page_w_header
+background:      mediumBackground
+customClass:     padding
 title:           "The Right Abstraction for Lambdas"
 date:            2019-02-25 09:00:00
 author:          "Artem Chernyak"

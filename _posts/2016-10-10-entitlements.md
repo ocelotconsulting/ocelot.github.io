@@ -1,5 +1,6 @@
 ---
-layout:      post
+layout:      page_w_header
+background:  shortBackground
 title:       "Dynamic Entitlements"
 subtitle:    "using Neo4j"
 date:        2016-10-10 10:05:00

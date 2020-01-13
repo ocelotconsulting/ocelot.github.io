@@ -1,5 +1,6 @@
 ---
-layout:      post
+layout:      page_w_header
+background:  shortBackground
 title:       "Lets Encrypt Lambda"
 subtitle:    "Free SSL Certificate Automation via AWS Lambda"
 date:        2016-10-07 08:30:00
