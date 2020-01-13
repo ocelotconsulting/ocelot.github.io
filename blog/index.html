@@ -5,6 +5,45 @@ subtitle: "Ocelot has opportunities for developers of all skill levels utilizing
 background: mediumBackground
 ---
 
+{% assign rows = site.posts.size | divided_by: 3.0 | ceil %}
+{% for i in (0..rows) %}
+<div class="tile is-ancestor">
+{% assign offset = i | times: 3.0 %}
+{% assign limit = offset | minus: 3 %}
+{% if forloop.first %}
+{% for post in site.posts limit:3 offset:0 %}
+<a href="{{ post.url | prepend: site.baseurl }}"></a>
+  <div class="tile is-parent" style="background-image: url;">
+    <article class="tile is-child box">
+      <h2 class="post-title">
+        {{ post.title }}
+      </h2>
+      <h3 class="post-subtitle">
+          {{ post.subtitle }}
+      </h3>
+    </article>
+  </div>
+</a>
+{% endfor %}
+{% else %}
+{% for post in site.posts limit:3 offset:offset %}
+<a href="{{ post.url | prepend: site.baseurl }}">
+  <div class="tile is-parent" style="background-image: url;">
+    <article class="tile is-child box">
+      <h2 class="post-title">
+        {{ post.title }}
+      </h2>
+      <h3 class="post-subtitle">
+          {{ post.subtitle }}
+      </h3>
+    </article>
+  </div>
+</a>
+{% endfor %}
+{% endif %}
+</div>
+{% endfor %}
+
 <!-- <section id="blog-preview">
   <div class="container">
     <div class="row">
