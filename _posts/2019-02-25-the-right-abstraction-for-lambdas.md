@@ -1,5 +1,5 @@
 ---
-layout:          page_w_header
+layout:          posts
 background:      mediumBackground
 customClass:     padding
 title:           "The Right Abstraction for Lambdas"
@@ -10,6 +10,8 @@ description:     "Using serverless functions to hand requests"
 cross-post-link: "https://hackeryarn.com/post/the-right-abstraction-for-lambdas/"
 cross-post-text: "hackeryarn.com"
 ---
+
+<!-- *{{page.author}} - {{page.date | date: "%b %d, %Y"}}* -->
 
 Serverless functions are a great alternative for many light tasks that would traditionally required a server. They allow you to split up work across mutiple small functions, and you only pay for what you use. On top of that, they require less maintenance than managing your own server or Kubernetes cluster.
 

@@ -1,5 +1,5 @@
 ---
-layout:      page_w_header
+layout:      posts
 background:  shortBackground
 title:       "Rebooting Error Handling"
 subtitle:    "Using the Rust programming language"

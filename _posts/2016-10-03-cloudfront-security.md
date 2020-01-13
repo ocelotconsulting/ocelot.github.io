@@ -1,5 +1,5 @@
 ---
-layout:      page_w_header
+layout:      posts
 background:  shortBackground
 title:       "Securing CloudFront"
 subtitle:    "Secure, scalable and worry free websites"

@@ -1,5 +1,5 @@
 ---
-layout:      page_w_header
+layout:      posts
 background:  shortBackground
 title:       "GlobalHack VI"
 subtitle:    "Caffeine, Coding, and Contributing for a Cause"

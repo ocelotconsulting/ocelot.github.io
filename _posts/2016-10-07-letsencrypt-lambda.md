@@ -1,5 +1,5 @@
 ---
-layout:      page_w_header
+layout:      posts
 background:  shortBackground
 title:       "Lets Encrypt Lambda"
 subtitle:    "Free SSL Certificate Automation via AWS Lambda"

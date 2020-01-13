@@ -1,5 +1,5 @@
 ---
-layout:      page_w_header
+layout:      posts
 background:  shortBackground
 title:       "STL OWASP CTF"
 subtitle:    "Seeing information security from the other side"

@@ -1,5 +1,5 @@
 ---
-layout:      page_w_header
+layout:      posts
 background:  shortBackground
 title:       "AWS Lambda + API Gateway"
 subtitle:    "Simple Deployment via CloudFormation"

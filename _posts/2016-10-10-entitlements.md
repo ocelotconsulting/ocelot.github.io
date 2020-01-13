@@ -1,5 +1,5 @@
 ---
-layout:      page_w_header
+layout:      posts
 background:  shortBackground
 title:       "Dynamic Entitlements"
 subtitle:    "using Neo4j"

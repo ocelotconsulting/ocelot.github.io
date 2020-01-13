@@ -1,5 +1,5 @@
 ---
-layout:      page_w_header
+layout:      posts
 background:  shortBackground
 title:       "Launching Ocelot"
 subtitle:    "Ocelot Consulting introduction"

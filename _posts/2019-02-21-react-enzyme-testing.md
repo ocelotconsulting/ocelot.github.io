@@ -1,5 +1,5 @@
 ---
-layout:      page_w_header
+layout:      posts
 background:  mediumBackground
 customClass: padding
 title:       "Unit testing with React and Enzyme"

@@ -1,5 +1,5 @@
 ---
-layout:      page_w_header
+layout:      posts
 background:  shortBackground
 title:       "Snap-Slack Bot"
 subtitle:    "Leveraging AWS lambda for asynchronous slack activities"
