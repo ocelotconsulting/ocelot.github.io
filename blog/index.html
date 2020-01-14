@@ -21,6 +21,9 @@ background: mediumBackground
       <h3 class="post-subtitle">
           {{ post.subtitle }}
       </h3>
+      <h4 class="post-subtitle">
+        {{post.author}} - {{ post.date | date: "%B %-d, %Y" }}
+      </h4>
     </article>
   </div>
 </a>
@@ -36,6 +39,10 @@ background: mediumBackground
       <h3 class="post-subtitle">
           {{ post.subtitle }}
       </h3>
+      </br>
+        <h4 class="post-subtitle">
+          {{post.author}} - {{ post.date | date: "%B %-d, %Y" }}
+        </h4>
     </article>
   </div>
 </a>
