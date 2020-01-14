@@ -42,11 +42,20 @@ columns {
     background-color: #F8F8F8;
     margin-top: -5rem;
   }
+
+  &--light-background-with-large {
+    background-color: #F8F8F8;
+    margin-top: -10rem;
+  }
 }
 
 .hero-body {
   &--dark-background {
     transform: skewY(-5deg);
+  }
+
+  &--spacing {
+    margin-top: -10rem;
   }
 }
 
