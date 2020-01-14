@@ -5,7 +5,7 @@ title:       "GlobalHack VI"
 subtitle:    "Caffeine, Coding, and Contributing for a Cause"
 date:        2016-10-27 08:00:00
 author:      "John, Larry, and Tyler"
-header-img:  "/assets/images/blog/homeless.jpg"
+headerImg:  "/assets/images/blog/homeless.jpg"
 description: "The Ocelot team's experience participating in GlobalHack 6 (for St. Patrick's Center in St. Louis)"
 ---
 

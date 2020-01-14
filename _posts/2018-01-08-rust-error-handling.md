@@ -5,7 +5,7 @@ title:       "Rebooting Error Handling"
 subtitle:    "Using the Rust programming language"
 date:        2018-01-08 10:00:00
 author:      "John O'Malley"
-header-img:  "/assets/images/blog/code.jpg"
+headerImg:  "/assets/images/blog/code.jpg"
 description: "Error handling in the Rust programming language"
 ---
 
