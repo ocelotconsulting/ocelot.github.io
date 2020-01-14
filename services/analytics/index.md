@@ -21,12 +21,11 @@ services:
 
 {% include icon-list.html title="How We Can Help" id="cloud-technology-services" section="is-medium" icons=page.services padding="true" subtitle="All of our employees are skilled in multiple facets of cloud strategy, methodology, cost optimization, and security that factor into the following products we offer."%}
 
-<br/>
-<div class="columns is-centered">  
+<!-- <div class="columns is-centered">  
   <div class="column is-half" style="text-align:center">
     <a href="/#contact" class="button is-primary is-outlined">Get Started Today</a>
   </div>
-</div>
+</div> -->
     
 
 <!-- 

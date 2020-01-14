@@ -5,7 +5,7 @@ title:       "AWS Lambda + API Gateway"
 subtitle:    "Simple Deployment via CloudFormation"
 date:        2017-12-18 09:45:00
 author:      "Larry Anderson"
-header-img:  "/assets/images/blog/gateway-lambda.png"
+headerImg:  "/assets/images/blog/gateway-lambda.png"
 description: "Deploying a simple lambda with an API Gateway integration including custom authorizer and domain name."
 ---
 
