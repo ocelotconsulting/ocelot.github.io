@@ -44,7 +44,7 @@ culture:
       <h1 class="title">Open Positions</h1>
       <div class="columns">
         <div class="column is-one-third">
-          {% include card.html title="Full Stack Engineer" description="For developers who are comfortable building an app from UI to API, and Database to Cloud provisioning." cardImage="/assets/images/fullstack.jpeg" route="/careers/full-stack-developer" applyRoute="https://www.indeed.com/job/full-stack-developer-cloud-native-b85dc9073f5bdf8e" %}
+          {% include card.html title="Full Stack Engineer" description="For developers who are comfortable building an app from UI to API, and Database to Cloud provisioning." cardImage="/assets/images/fullstack_edited.jpeg" route="/careers/full-stack-developer" applyRoute="https://www.indeed.com/job/full-stack-developer-cloud-native-b85dc9073f5bdf8e" %}
         </div>
         <div class="column is-one-third">
           {% include card.html title="Big Data Engineer" description="For developers who are comfortable processing terabytes of data. You know your Kafka from your Spark." cardImage="/assets/images/bigdata.png" route="/careers/big-data-engineer" applyRoute="https://www.indeed.com/job/big-data-engineer-18a7c0d744835ec4" %}
