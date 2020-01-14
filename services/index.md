@@ -1,7 +1,7 @@
 ---
 layout: page_w_header
 title:  "Services"
-subtitle: "Ocelot ensures an expertise in a variety of different fields in order to best drive your modern business"
+subtitle: "Equip your business with the best expertise"
 background: mediumBackground
 services: 
   - title: Cloud Technologies
