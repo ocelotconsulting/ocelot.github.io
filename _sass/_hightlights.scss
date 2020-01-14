@@ -57,7 +57,8 @@
             text-transform: uppercase;
             letter-spacing: 1rem;
           }
-          animation: moveInBottom .5s ease-in;
+          animation: moveInBottom .5s ease-in .5s;
+          animation-fill-mode: backwards;
 
           &__subtitle {
             margin: 12rem 0 0;

@@ -6,7 +6,7 @@ subtitle:    "Free SSL Certificate Automation via AWS Lambda"
 date:        2016-10-07 08:30:00
 author:      "Larry Anderson"
 description: "Obtain and maintain SSL certificates worry-free by harnessing the power of AWS lambda"
-header-img:  "/assets/images/blog/fence.jpg"
+headerImg:  "/assets/images/blog/fence.jpg"
 ---
 
 ### Free Certificates!

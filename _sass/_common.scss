@@ -49,3 +49,11 @@ columns {
     transform: skewY(-5deg);
   }
 }
+
+.box {
+  transition: transform .2s;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}

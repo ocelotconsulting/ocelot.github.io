@@ -17,12 +17,11 @@ engagements:
 
 {% include icon-list.html title="How We Can Help" id="cloud-technology-services" section="is-medium" icons=page.engagements padding="true" subtitle="The ability of companies to track their information and ensure adherence to both corporate and government policies is a powerful risk mitigation capability that promotes security while preventing large fines and erosion of customer trust that can happen during a breach. Ocelot offers the following engagements: "%}
 
-<br/>
-<div class="columns is-centered">  
+<!-- <div class="columns is-centered">  
   <div class="column is-half" style="text-align:center">
     <a href="/#contact" class="button is-primary is-outlined">Get Started Today</a>
   </div>
-</div>
+</div> -->
     
 <!-- <div id="security">
 	<div class="box">
