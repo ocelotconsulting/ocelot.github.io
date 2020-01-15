@@ -82,7 +82,7 @@ background: mediumBackground
         <div class="container has-text-centered">
           <div class="columns is-vcentered">
             <div class="column is-4">
-              <img src="/assets/images/marquis.jpg" class="is-16by9" alt="Ocelots">
+              <img src="/assets/images/marquis-cropped.png" class="is-16by9" alt="Ocelots">
             </div>
             <div class="column is-8">
               <h1 class="title title__spacing-medium">
