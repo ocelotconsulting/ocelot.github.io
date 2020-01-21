@@ -65,7 +65,7 @@ services:
 				</div>
 				<div class="info-card__subtitle">
 					<div class="info-card__sub-text">
-						With data being named the worlds most valuable resource,many companies are scrambling to understand and govern their own information assets. We accelerate these practices while designing and deploying data governance plans.
+						With data being named the worlds most valuable resource, many companies are scrambling to understand and govern their own information assets. We accelerate these practices while designing and deploying data governance plans.
 					</div>
 				</div>
 			</div>
