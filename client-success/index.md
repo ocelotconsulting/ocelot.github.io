@@ -23,8 +23,7 @@ background: mediumBackground
               </div>
             </div>
             <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
+              Ocelot worked with a Fortune 50 healthcare client to help jumpstart their cloud transfomation and migrate their data
             </div>
           </div>
         </div>
@@ -45,8 +44,7 @@ background: mediumBackground
               </div>
             </div>
             <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
+              Ocelot helped a Fortune 500 Client migrate their primary website to the cloud and develop a cloud based Data Lake
             </div>
           </div>
         </div>
@@ -67,8 +65,7 @@ background: mediumBackground
               </div>
             </div>
             <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
+              Working with a Fortune 500 Financial Client, Oceleot helped accelerate their cloud adoption and modernization of infrastructure
             </div>
           </div>
         </div>
@@ -91,8 +88,7 @@ background: mediumBackground
               </div>
             </div>
             <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
+              Ocelot partnered with a Fortune 500 Telecom Client to help them deliver a modern ordering solution for their Call Centers
             </div>
           </div>
         </div>
@@ -113,8 +109,7 @@ background: mediumBackground
               </div>
             </div>
             <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
+              Ocelot has helped a local firm modernize their job positng application and aided in integrating that system with the hiring efforts for the State of Missouri
             </div>
           </div>
         </div>
