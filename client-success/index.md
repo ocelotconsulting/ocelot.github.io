@@ -99,28 +99,6 @@ background: mediumBackground
         </a>
       </div>
       <div class="column is-one-third">
-        <a href="/client-success/travel.html">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-5by3" style="margin: 0;">
-              <img src="/assets/images/travel-6x9.jpg" class="is-16by9" alt="Travel" />
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Travel</p>
-              </div>
-            </div>
-            <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
-            </div>
-          </div>
-        </div>
-        </a>
-      </div>
-      <div class="column is-one-third">
         <a href="/client-success/hr.html">
         <div class="card">
           <div class="card-image">
