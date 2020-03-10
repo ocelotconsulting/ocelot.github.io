@@ -28,7 +28,7 @@ background: mediumBackground
       <section class="section">
         <div class="columns">
           <div class="column is-full">
-            <a id="healthcare-section" href="/client-success/healthcare.html">
+            <a id="healthcare-section" href="/industries/healthcare.html">
               <div class="box">
                 <article class="media">
                   <div class="media-content">
@@ -52,7 +52,7 @@ background: mediumBackground
         </div>
         <div class="columns">
           <div class="column is-full">
-            <a id="utilities-section" href="/client-success/utilities.html">
+            <a id="utilities-section" href="/industries/utilities.html">
               <div class="box">
                 <article class="media">
                   <div class="media-content">
@@ -76,7 +76,7 @@ background: mediumBackground
         </div>
         <div class="columns">
           <div class="column is-full">
-            <a id="financial-section" href="/client-success/financial_services.html">
+            <a id="financial-section" href="/industries/financial_services.html">
               <div class="box">
                 <article class="media">
                   <div class="media-content">
@@ -100,7 +100,7 @@ background: mediumBackground
         </div>
         <div class="columns">
           <div class="column is-full">
-            <a id="telecom-section" href="/client-success/telecom.html">
+            <a id="telecom-section" href="/industries/telecom.html">
               <div class="box">
                 <article class="media">
                   <div class="media-content">
@@ -124,7 +124,7 @@ background: mediumBackground
         </div>
         <div class="columns">
           <div class="column is-full">
-            <a id="hr-section" href="/client-success/hr.html">
+            <a id="hr-section" href="/industries/hr.html">
               <div class="box">
                 <article class="media">
                   <div class="media-content">
