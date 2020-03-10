@@ -7,6 +7,4 @@ background: shortBackground
 
 ### Expertise Demonstrated
 
-# TODO
-
-Try to write something nice about a certain Fortune 500 telecom company?
+Try to write something nice about a certain Fortune 500 telecom company
