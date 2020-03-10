@@ -1,120 +1,153 @@
 ---
 layout: page_w_header
-title:  "Client Success"
+title:  "Industries"
 subtitle: "Ocelot carries a legacy of highly successful partnerships in multiple industries"
 background: mediumBackground
 ---
 
-<div class="container">
+<div class="container with-padding">
   <div class="content">
-    <div class="columns welcome-cards">
-      <div class="column is-one-third">
-        <a href="/client-success/healthcare.html">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-5by3" style="margin: 0;">
-              <img src="/assets/images/health_care_6x9.jpg" class="is-16by9" alt="Healthcare" />
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Healthcare</p>
-              </div>
-            </div>
-            <div class="content">
-              Ocelot worked with a Fortune 50 healthcare client to help jumpstart their cloud transfomation and migrate their data
-            </div>
-          </div>
-        </div>
-        </a>
-      </div>
-      <div class="column is-one-third">
-        <a href="/client-success/utilities.html">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-5by3" style="margin: 0;">
-              <img src="/assets/images/utilities2-6x9.jpg" class="is-16by9" alt="Utilities" />
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Utilities</p>
-              </div>
-            </div>
-            <div class="content">
-              Ocelot helped a Fortune 500 Client migrate their primary website to the cloud and develop a cloud based Data Lake
-            </div>
-          </div>
-        </div>
-        </a>
-      </div>
-      <div class="column is-one-third">
-        <a href="/client-success/financial_services.html">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-5by3" style="margin: 0;">
-              <img src="/assets/images/financials2-6x9.jpg" class="is-16by9" alt="Fin_serv" />
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Financial Services</p>
-              </div>
-            </div>
-            <div class="content">
-              Working with a Fortune 500 Financial Client, Oceleot helped accelerate their cloud adoption and modernization of infrastructure
-            </div>
-          </div>
-        </div>
-        </a>
-      </div>
+    <div class="dashboard is-full-height">
+    <!-- left panel -->
+    <div class="dashboard-panel is-one-quarter">
+      <aside class="menu">
+        <p class="menu-label">
+          Industries
+        </p>
+        <ul class="menu-list">
+          <li><a href="#healthcare-section">Healthcare</a></li>
+          <li><a href="#utilities-section">Utilities</a></li>
+          <li><a href="#financial-section">Financial Services</a></li>
+          <li><a href="#telecom-section">Telecommunications</a></li>
+          <li><a href="#hr-section">Human Resources</a></li>
+        </ul>
+      </aside>
     </div>
-    <div class="columns welcome-cards">
-      <div class="column is-one-third">
-        <a href="/client-success/telecom.html">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-5by3" style="margin: 0;">
-              <img src="/assets/images/telecom-6x9.jpg" class="is-16by9" alt="Telecom" />
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Telecom</p>
+    <!-- main section -->
+    <div class="dashboard-main is-three-quarter is-scrollable">
+      <section class="section">
+        <div class="columns">
+          <div class="column is-full">
+            <a id="healthcare-section" href="/client-success/healthcare.html">
+              <div class="box">
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content dark-text">
+                      <p>
+                        <strong>Healthcare</strong>
+                        <br>
+                        Ocelot worked with a Fortune 50 healthcare client to help jumpstart their cloud transfomation and migrate their data
+                      </p>
+                    </div>
+                  </div>
+                  <div class="media-right">
+                    <div class="image is-200x200">
+                      <img src="/assets/images/health_care_6x9.jpg" class="is-16by9" alt="Healthcare" />
+                    </div>
+                  </div>
+                </article>
               </div>
-            </div>
-            <div class="content">
-              Ocelot partnered with a Fortune 500 Telecom Client to help them deliver a modern ordering solution for their Call Centers
-            </div>
+            </a>
           </div>
         </div>
-        </a>
-      </div>
-      <div class="column is-one-third">
-        <a href="/client-success/hr.html">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-5by3" style="margin: 0;">
-              <img src="/assets/images/hr.jpg" class="is-16by9" alt="HR" />
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">HR</p>
+        <div class="columns">
+          <div class="column is-full">
+            <a id="utilities-section" href="/client-success/utilities.html">
+              <div class="box">
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content dark-text">
+                      <p>
+                        <strong>Utilities</strong>
+                        <br>
+                        Ocelot helped a Fortune 500 Client migrate their primary website to the cloud and develop a cloud based Data Lake
+                      </p>
+                    </div>
+                  </div>
+                  <div class="media-right">
+                    <div class="image is-200x200">
+                      <img src="/assets/images/utilities2-6x9.jpg" class="is-16by9" alt="Utilities" />
+                    </div>
+                  </div>
+                </article>
               </div>
-            </div>
-            <div class="content">
-              Ocelot has helped a local firm modernize their job positng application and aided in integrating that system with the hiring efforts for the State of Missouri
-            </div>
+            </a>
           </div>
         </div>
-        </a>
-      </div>
+        <div class="columns">
+          <div class="column is-full">
+            <a id="financial-section" href="/client-success/financial_services.html">
+              <div class="box">
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content dark-text">
+                      <p>
+                        <strong>Financial Services</strong>
+                        <br>
+                        Working with a Fortune 500 Financial Client, Oceleot helped accelerate their cloud adoption and modernization of infrastructure
+                      </p>
+                    </div>
+                  </div>
+                  <div class="media-right">
+                    <div class="image is-200x200">
+                      <img src="/assets/images/financials2-6x9.jpg" class="is-16by9" alt="Fin_services" />
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-full">
+            <a id="telecom-section" href="/client-success/telecom.html">
+              <div class="box">
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content dark-text">
+                      <p>
+                        <strong>Telecommunications</strong>
+                        <br>
+                        Ocelot partnered with a Fortune 500 Telecom Client to help them deliver a modern ordering solution for their Call Centers
+                      </p>
+                    </div>
+                  </div>
+                  <div class="media-right">
+                    <div class="image is-200x200">
+                      <img src="/assets/images/telecom-6x9.jpg" class="is-16by9" alt="Telecom" />
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-full">
+            <a id="hr-section" href="/client-success/hr.html">
+              <div class="box">
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content dark-text">
+                      <p>
+                        <strong>Human Resources</strong>
+                        <br>
+                        Ocelot has helped a local firm modernize their job positng application and aided in integrating that system with the hiring efforts for the State of Missouri
+                      </p>
+                    </div>
+                  </div>
+                  <div class="media-right">
+                    <div class="image is-200x200">
+                      <img src="/assets/images/hr.jpg" class="is-16by9" alt="HR" />
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
+  </div>
   </div>
 </div>
