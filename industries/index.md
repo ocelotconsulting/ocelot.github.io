@@ -14,8 +14,8 @@ industries:
     linkId: utilities-section
     link: /industries/utilities.html
     image: /assets/images/utilities2-6x9.jpg
-    problem: Ocelot helped a Fortune 500 Client migrate their primary website to the cloud and develop a cloud based Data Lake
-    solution: TBD
+    problem: When it comes to services in the Utilities industry performance and reliability are of critical to a companies success.
+    solution: As more people need access to services more strain is put on Utility companies infrastructure and they need to be able to adapt and scale to be able to support the extra load. IT is a critical piece of that infrastructure that can help companies better monitor their services, react to issues, and maintain contact with their customers.<br/><br/>Ocelot has shown that we have the right skills to help clients keep up with the ever increasing demands they face.
   - title: Financial Services
     linkId: financial-section
     link: /industries/financial_services.html
