@@ -17,6 +17,7 @@
     }
     .dot-background {
       height: 45rem;
+      clip-path: polygon(50% 0%, 100% 0, 100% 85%, 25% 100%, 0% 75%, 0 0);
       -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 85%, 25% 100%, 0% 75%, 0 0);
       background-image: url(/assets/images/mosaic.png);
       background-color: transparent;

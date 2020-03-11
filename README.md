@@ -26,7 +26,6 @@
     bundle exec jekyll serve
     ```
 
-
 [ruby]: https://www.ruby-lang.org/en/
 [ghp]: https://rubygems.org/gems/github-pages
 [ghp-gems]: https://pages.github.com/versions/
