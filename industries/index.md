@@ -20,8 +20,8 @@ industries:
     linkId: financial-section
     link: /industries/financial_services.html
     image: /assets/images/financials2-6x9.jpg
-    problem: Working with a Fortune 500 Financial Client, Oceleot helped accelerate their cloud adoption and modernization of infrastructure
-    solution: TBD
+    problem: Companies in the Financial Services industry have to work with ever evolving regulations as well as an ever changing market which is affected by numerous different variables.
+    solution: With the ever changing landscape of this industry companies must be able to keep track of all the moving pieces and respond quickly and accurately as new information is made available. This requires a strong focus on quick data analysis based on variable information while maintaining accuracy and security.<br/><br/>Ocelot has a proven track record of helping clients in this industry improve their processes and the build the right tools to solve these complex problems
   - title: Telecommunications
     linkId: telecom-section
     link: /industries/telecom.html
