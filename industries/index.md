@@ -8,8 +8,8 @@ industries:
     linkId: healthcare-section
     link: /industries/healthcare.html
     image: /assets/images/health_care_6x9.jpg
-    problem: The healthcare field is constantly evolving and growing. In order to keep up, companies need to collect, manage, analyze, and display massive amounts of data.
-    solution: As the amount and variety of data consumed continues to grow, new and innovative solutions are needed to keep up. From ingesting and processing the data to analyzing and visualization, performance and accuracy are key.<br/><br/>Ocelot has experience helping clients in the Healthcare industry adapt and grow to meet their ever changing data needs.
+    problem: The healthcare field is constantly evolving and growing. In order to keep up, companies need to collect, manage, analyze, and display massive amounts of data while still maintaining privacy.
+    solution: As the amount and variety of data consumed continues to grow, new and innovative solutions are needed to keep up. From ingesting and processing the data to analyzing and visualization, performance and accuracy are key.<br/><br/>Ocelot has experience helping clients in the Healthcare industry adapt and grow to meet their ever changing data needs without compromising privacy standards.
   - title: Utilities
     linkId: utilities-section
     link: /industries/utilities.html
