@@ -26,8 +26,8 @@ industries:
     linkId: telecom-section
     link: /industries/telecom.html
     image: /assets/images/telecom-6x9.jpg
-    problem: Ocelot partnered with a Fortune 500 Telecom Client to help them deliver a modern ordering solution for their Call Centers
-    solution: TBD
+    problem: The telecom industry has a lot of competition with each company vying to provide their services to the most people possible. Strong customer service is a crucial tool used to gain and retain customers.
+    solution: With the ready availability of other providers, a Telecom company has to have good customer service in order to compete. A large part of successful customer service is the ability to quickly and accurately help customers sign up for, alter, or troubleshoot their services. IT tools are paramount in this endeavor. With the right tools service agents are better able to provide customers with the help they need.<br/><br/>Ocelot has the expertise to build intuitive and responsive tools that make managing customers and their services quick and easy.
   - title: Human Resources
     linkId: hr-section
     link: /industries/hr.html
