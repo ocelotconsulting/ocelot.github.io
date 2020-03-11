@@ -1,7 +1,7 @@
 ---
 layout: page_w_header
-title:  "HR"
-subtitle: "Human Resources Screening"
+title:  "Human Resources"
+subtitle: "Job Posting and Candidate Screening"
 background: shortBackground
 ---
 
