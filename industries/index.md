@@ -31,6 +31,11 @@ background: mediumBackground
             <a id="healthcare-section" href="/industries/healthcare.html">
               <div class="box">
                 <article class="media">
+                  <div class="media-left">
+                    <div class="image is-300x200">
+                      <img src="/assets/images/health_care_6x9.jpg" alt="Healthcare" />
+                    </div>
+                  </div>
                   <div class="media-content">
                     <div class="content dark-text">
                       <p>
@@ -38,11 +43,6 @@ background: mediumBackground
                         <br>
                         Ocelot worked with a Fortune 50 healthcare client to help jumpstart their cloud transfomation and migrate their data
                       </p>
-                    </div>
-                  </div>
-                  <div class="media-right">
-                    <div class="image is-200x200">
-                      <img src="/assets/images/health_care_6x9.jpg" class="is-16by9" alt="Healthcare" />
                     </div>
                   </div>
                 </article>
@@ -55,6 +55,11 @@ background: mediumBackground
             <a id="utilities-section" href="/industries/utilities.html">
               <div class="box">
                 <article class="media">
+                  <div class="media-left">
+                    <div class="image is-300x200">
+                      <img src="/assets/images/utilities2-6x9.jpg" alt="Utilities" />
+                    </div>
+                  </div>
                   <div class="media-content">
                     <div class="content dark-text">
                       <p>
@@ -62,11 +67,6 @@ background: mediumBackground
                         <br>
                         Ocelot helped a Fortune 500 Client migrate their primary website to the cloud and develop a cloud based Data Lake
                       </p>
-                    </div>
-                  </div>
-                  <div class="media-right">
-                    <div class="image is-200x200">
-                      <img src="/assets/images/utilities2-6x9.jpg" class="is-16by9" alt="Utilities" />
                     </div>
                   </div>
                 </article>
@@ -79,6 +79,11 @@ background: mediumBackground
             <a id="financial-section" href="/industries/financial_services.html">
               <div class="box">
                 <article class="media">
+                  <div class="media-left">
+                    <div class="image is-300x200">
+                      <img src="/assets/images/financials2-6x9.jpg" alt="Fin_services" />
+                    </div>
+                  </div>
                   <div class="media-content">
                     <div class="content dark-text">
                       <p>
@@ -86,11 +91,6 @@ background: mediumBackground
                         <br>
                         Working with a Fortune 500 Financial Client, Oceleot helped accelerate their cloud adoption and modernization of infrastructure
                       </p>
-                    </div>
-                  </div>
-                  <div class="media-right">
-                    <div class="image is-200x200">
-                      <img src="/assets/images/financials2-6x9.jpg" class="is-16by9" alt="Fin_services" />
                     </div>
                   </div>
                 </article>
@@ -103,6 +103,11 @@ background: mediumBackground
             <a id="telecom-section" href="/industries/telecom.html">
               <div class="box">
                 <article class="media">
+                  <div class="media-left">
+                    <div class="image is-300x200">
+                      <img src="/assets/images/telecom-6x9.jpg" alt="Telecom" />
+                    </div>
+                  </div>
                   <div class="media-content">
                     <div class="content dark-text">
                       <p>
@@ -110,11 +115,6 @@ background: mediumBackground
                         <br>
                         Ocelot partnered with a Fortune 500 Telecom Client to help them deliver a modern ordering solution for their Call Centers
                       </p>
-                    </div>
-                  </div>
-                  <div class="media-right">
-                    <div class="image is-200x200">
-                      <img src="/assets/images/telecom-6x9.jpg" class="is-16by9" alt="Telecom" />
                     </div>
                   </div>
                 </article>
@@ -127,6 +127,11 @@ background: mediumBackground
             <a id="hr-section" href="/industries/hr.html">
               <div class="box">
                 <article class="media">
+                  <div class="media-left">
+                    <div class="image is-300x200">
+                      <img src="/assets/images/hr.jpg" alt="HR" />
+                    </div>
+                  </div>
                   <div class="media-content">
                     <div class="content dark-text">
                       <p>
@@ -134,11 +139,6 @@ background: mediumBackground
                         <br>
                         Ocelot has helped a local firm modernize their job positng application and aided in integrating that system with the hiring efforts for the State of Missouri
                       </p>
-                    </div>
-                  </div>
-                  <div class="media-right">
-                    <div class="image is-200x200">
-                      <img src="/assets/images/hr.jpg" class="is-16by9" alt="HR" />
                     </div>
                   </div>
                 </article>
