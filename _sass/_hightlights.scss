@@ -3,6 +3,7 @@
     .background {
       height: 45rem;
       clip-path: polygon(50% 0%, 100% 0, 100% 85%, 25% 100%, 0% 75%, 0 0);
+      -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 85%, 25% 100%, 0% 75%, 0 0);
       background-image: linear-gradient(to right, rgba(black, .90) 50%, rgba(black, .75) 100%), url(/assets/images/ocelot-wallpaper.jpg);
       background-size: cover;
       background-position: right center;
@@ -16,7 +17,7 @@
     }
     .dot-background {
       height: 45rem;
-      clip-path: polygon(50% 0%, 100% 0, 100% 85%, 25% 100%, 0% 75%, 0 0);
+      -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 85%, 25% 100%, 0% 75%, 0 0);
       background-image: url(/assets/images/mosaic.png);
       background-color: transparent;
       background-position: right center;
