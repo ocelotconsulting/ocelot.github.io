@@ -24,7 +24,7 @@ background: mediumBackground
       </aside>
     </div>
     <!-- main section -->
-    <div class="dashboard-main is-three-quarter is-scrollable">
+    <div class="dashboard-main is-scrollable">
       <section class="section">
         <div class="columns">
           <div class="column is-full">
@@ -32,17 +32,22 @@ background: mediumBackground
               <div class="box">
                 <article class="media">
                   <div class="media-left">
-                    <div class="image is-300x200">
+                    <div class="image is-20x15">
                       <img src="/assets/images/health_care_6x9.jpg" alt="Healthcare" />
                     </div>
                   </div>
                   <div class="media-content">
                     <div class="content dark-text">
-                      <p>
-                        <strong>Healthcare</strong>
-                        <br>
-                        Ocelot worked with a Fortune 50 healthcare client to help jumpstart their cloud transfomation and migrate their data
-                      </p>
+                      <h3 class="title is-3 industry-title">Healthcare</h3>
+                      <div class="has-text-weight-semibold">
+                        The healthcare field is constantly evolving and growing. In order to keep up, companies need to collect, manage, analyze, and display massive amounts of data.
+                      </div>
+                      <br/>
+                      <div class="has-text-weight-light">
+                        As the amount and variety of data consumed continues to grow, new and innovative solutions are needed to keep up. From ingesting and processing the data to analyzing and visualization, performance and accuracy are key.
+                        <br/><br/>
+                        Ocelot has experience helping clients in the Healthcare industry adapt and grow to meet their ever changing data needs.
+                      </div>
                     </div>
                   </div>
                 </article>
@@ -56,17 +61,16 @@ background: mediumBackground
               <div class="box">
                 <article class="media">
                   <div class="media-left">
-                    <div class="image is-300x200">
+                    <div class="image is-20x15">
                       <img src="/assets/images/utilities2-6x9.jpg" alt="Utilities" />
                     </div>
                   </div>
                   <div class="media-content">
                     <div class="content dark-text">
-                      <p>
-                        <strong>Utilities</strong>
-                        <br>
+                      <h3 class="title is-3">Utilities</h3>
+                      <span class="has-text-weight-semibold">
                         Ocelot helped a Fortune 500 Client migrate their primary website to the cloud and develop a cloud based Data Lake
-                      </p>
+                      </span>
                     </div>
                   </div>
                 </article>
@@ -80,17 +84,16 @@ background: mediumBackground
               <div class="box">
                 <article class="media">
                   <div class="media-left">
-                    <div class="image is-300x200">
+                    <div class="image is-20x15">
                       <img src="/assets/images/financials2-6x9.jpg" alt="Fin_services" />
                     </div>
                   </div>
                   <div class="media-content">
                     <div class="content dark-text">
-                      <p>
-                        <strong>Financial Services</strong>
-                        <br>
+                      <h3 class="title is-3">Financial Services</h3>
+                      <span class="has-text-weight-semibold">
                         Working with a Fortune 500 Financial Client, Oceleot helped accelerate their cloud adoption and modernization of infrastructure
-                      </p>
+                      </span>
                     </div>
                   </div>
                 </article>
@@ -104,17 +107,16 @@ background: mediumBackground
               <div class="box">
                 <article class="media">
                   <div class="media-left">
-                    <div class="image is-300x200">
+                    <div class="image is-20x15">
                       <img src="/assets/images/telecom-6x9.jpg" alt="Telecom" />
                     </div>
                   </div>
                   <div class="media-content">
                     <div class="content dark-text">
-                      <p>
-                        <strong>Telecommunications</strong>
-                        <br>
+                      <h3 class="title is-3">Telecommunications</h3>
+                      <span class="has-text-weight-semibold">
                         Ocelot partnered with a Fortune 500 Telecom Client to help them deliver a modern ordering solution for their Call Centers
-                      </p>
+                      </span>
                     </div>
                   </div>
                 </article>
@@ -128,17 +130,16 @@ background: mediumBackground
               <div class="box">
                 <article class="media">
                   <div class="media-left">
-                    <div class="image is-300x200">
+                    <div class="image is-20x15">
                       <img src="/assets/images/hr.jpg" alt="HR" />
                     </div>
                   </div>
                   <div class="media-content">
                     <div class="content dark-text">
-                      <p>
-                        <strong>Human Resources</strong>
-                        <br>
+                      <h3 class="title is-3">Human Resources</h3>
+                      <span class="has-text-weight-semibold">
                         Ocelot has helped a local firm modernize their job positng application and aided in integrating that system with the hiring efforts for the State of Missouri
-                      </p>
+                      </span>
                     </div>
                   </div>
                 </article>
