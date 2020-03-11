@@ -38,7 +38,7 @@ industries:
 
 <div class="container with-padding">
   <div class="content">
-    <div class="dashboard is-full-height">
+    <div class="dashboard">
       <!-- left panel -->
       <div class="dashboard-panel is-one-quarter">
         <aside class="menu">
@@ -53,7 +53,7 @@ industries:
         </aside>
       </div>
       <!-- main section -->
-      <div class="dashboard-main is-scrollable">
+      <div class="dashboard-main">
         <section class="section">
           {% for industry in page.industries %}
             {% include industry-summary.html title=industry.title image=industry.image problem=industry.problem solution=industry.solution linkId=industry.linkId link=industry.link %}
