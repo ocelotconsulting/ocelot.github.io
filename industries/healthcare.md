@@ -3,7 +3,6 @@ layout: page_w_header
 title:  "Healthcare"
 subtitle: "Bringing Data Analytics to the Cloud"
 background: shortBackground
-customClass: full
 overviewStatement: Ocelot was selected by a Fortune 50 client to help them with a cloud proof of concept and in the process implement a modern web analytics portal for a $5 billion-dollar book of business.
 overviewList:
   - AWS data platform using Redshift
