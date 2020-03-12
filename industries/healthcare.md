@@ -6,10 +6,10 @@ background: shortBackground
 overviewStatement: Ocelot was selected by a Fortune 50 client to help them with a cloud proof of concept and in the process implement a modern web analytics portal for a $5 billion-dollar book of business.
 overviewList:
   - AWS data platform using Redshift
-  - Web portal using ReactJS
+  - Web portal using React
   - Data processes built with Go and ECS Fargate
   - Full HIPAA compliance
-needStatement: "The client came to us with a problem: the cost of operating an on-premise data warehouse is quite high and as they gain more business that cost will just increase. They knew the cloud could be a good solution for them, but they did not know how it would work for them or where to get started. This is where Ocelot was able to help."
+needStatement: "The client came to Ocelot with a problem: the cost of operating an on-premise data warehouse is quite high and as they gain more business that cost will just increase. They knew the cloud could be a good solution for them, but they did not know how it would work for them or where to get started. This is where Ocelot was able to help."
 needImage: /assets/images/healthcare_3-6x9.jpg
 needImageAlt: Healthcare
 ---
