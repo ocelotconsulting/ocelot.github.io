@@ -3,7 +3,24 @@ layout: page_w_header
 title:  "Utilities"
 subtitle: "Power & Energy Provider"
 background: shortBackground
+overviewStatement: Overview
+overviewList:
+  - cool things
+  - and stuff
+needStatement: Need
+needImage: /assets/images/utilities-6x9.jpg
+needImageAld: Utilities
 ---
+
+{% capture solutionStatement %}
+
+{% endcapture %}
+
+{% capture resultsStatement %}
+
+{% endcapture %}
+
+{% include case_study.html overviewStatement=page.overviewStatement overviewList=page.overviewList needStatement=page.needStatement needImage=page.needImage needImageAlt=page.needImageAlt solutionStatement=solutionStatement resultsStatement=resultsStatement %}
 
 ### Ocelot has partnered with a fortune 500 Client to improve customer-facing solutions, improve performance and cloud adoption, and drive advanced analytics capabilities.  As part of the deliverables to date, we have
 
