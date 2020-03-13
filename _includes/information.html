@@ -103,11 +103,13 @@
                 <div class="column is-6 {{ industries.customClass }}">
                   <div class="columns is-vcentered">
                     <div class="column is-4">
-                      <i class="fas {{ industry.icon }} fa-3x"></i>
+                      <div>
+                        <a href="{{ industry.caseStudy }}"><i class="fas {{ industry.icon }} fa-3x is-primary"></i></a>
+                      </div>
                     </div>
                     <div class="column is-8" style="text-align: left;">
                       <div class="icon-title icon-title--padding-bottom">{{ industry.title }}</div>
-                      {{ industry.description }}
+                      <div>{{ industry.description }}</div>
                     </div>
                   </div>
                 </div>
