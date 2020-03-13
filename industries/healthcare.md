@@ -27,7 +27,7 @@ needImageAlt: Healthcare
     </ul>
   </div>
   <div class="padding-top-1">
-    The team got to work building the necessary components for a successful cloud proof of concept. All the infrastructure was managed as code using AWS CloudFormation and a continuous integration/continuous delivery pipeline was established using GitLab and Jenkins on AWS. As the team worked, the client was able to see just how effectively the cloud could be utilized to develop solutions to meet their needs and they began to get excited by the possibilities.
+    The team got to work building the necessary components for a successful cloud proof of concept. All the infrastructure was managed as code using AWS CloudFormation and a continuous integration/continuous deployment pipeline was established using GitLab and Jenkins on AWS. As the team worked, the client was able to see just how effectively the cloud could be utilized to develop solutions to meet their needs and they began to get excited by the possibilities.
   </div>
   <div class="padding-top-1">
     The process was not without its roadblocks, however. One of the biggest challenges was integrating the 3rd party Business Intelligence solution the client used. There was an AWS Marketplace option availablefor the tool, but it did not meet the strict security and production readiness standards required for such sensitive information. Instead, the team implemented their own solution to manage and host the 3rd party services needed to analyze and visualize the data for the client. This showed the client that even without the availability of premade solutions, the cloud provided them the flexibility to adapt and still meet their requirements.
