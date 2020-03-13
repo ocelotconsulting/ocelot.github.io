@@ -28,29 +28,31 @@
         <div class="container has-text-centered">
           <h1 class="title title__spacing-small">Services</h1>
           <h2 class="subtitle subtitle__spacing-small">How can Ocelot help transform your business?</h2>
-          <div class="columns">
-            {% for service in page.services %}
-              <div class="column">
-                <div class="card">
-                  <div class="card-image">
-                    <figure class="image is-5by3" style="margin: 0;">
-                      <img src="{{ service.image }}" class="is-16by9" alt="{{ service.title }}">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content">
-                        <p class="title is-4">{{ service.title }}</p>
-                      </div>
+          {% for group in page.serviceGroups %}
+            <div class="columns">
+              {% for service in group.services %}
+                <div class="column is-4 {{ service.customClass }}">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-5by3" style="margin: 0;">
+                        <img src="{{ service.image }}" class="is-16by9" alt="{{ service.title }}">
+                      </figure>
                     </div>
-                    <div class="content" style="text-align: left;">
-                      {{ service.description }}
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-content">
+                          <p class="title is-4">{{ service.title }}</p>
+                        </div>
+                      </div>
+                      <div class="content" style="text-align: left;">
+                        {{ service.description }}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            {% endfor %}
-          </div>
+              {% endfor %}
+            </div>
+          {% endfor %}
           <br />
           <a href="/services" class="button is-primary is-outlined">Explore Our Services</a>
         </div>
@@ -100,7 +102,7 @@
           {% for industries in page.industryGroups %}
             <div class="columns padding-bottom">
               {% for industry in industries.industries %}
-                <div class="column is-6 {{ industries.customClass }}">
+                <div class="column is-6 {{ industry.customClass }}">
                   <div class="columns is-vcentered">
                     <div class="column is-4">
                       <div>

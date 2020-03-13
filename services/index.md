@@ -45,7 +45,7 @@ services:
 				</div>
 				<div class="info-card__subtitle">
 					<div class="info-card__sub-text">
-						We live in an era that contributes 2.5 quintillion bytes of data daily. We have experts that can help you uncover the value in your data and help advance your business.
+						We live in an era that contributes 2.5 quintillion bytes of data daily. We have experts that can help you analyze all that information so you can make more informed decisions and help advance your business.
 					</div>
 				</div>
 			</div>
@@ -83,6 +83,25 @@ services:
 				<div class="info-card__subtitle">
 					<div class="info-card__sub-text">
 						With experts that have helped clients with Health Insurance Portability and Accountability Act (HIPAA), Sarbenes Oxley (SOX), and General Data Protection Regulation (GDPR) compliance, you can trust that we will keep your assets safe.
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+<div class="columns is-centered">
+	<div class="column is-half">
+		<a href="/services/data">
+			<div class="info-card">
+				<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #404040, transparent), url(/assets/images/helloquence-61189-unsplash.jpg"></div>
+				<div class="info-card__title">
+					<div class="info-card__text">
+						Application Development
+					</div>
+				</div>
+				<div class="info-card__subtitle">
+					<div class="info-card__sub-text">
+						Your business is complex and uniquely your own. Too often there are no readily availiable prebuilt tools that can meet all of your indiviual needs. Ocelot can help you analyze your options and work with you to build the right tool to help you do your jobs the best way possible.
 					</div>
 				</div>
 			</div>
