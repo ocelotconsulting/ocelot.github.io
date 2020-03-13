@@ -1,7 +1,7 @@
 ---
 layout: page_w_header
 title:  "Financial Services"
-subtitle: "Modernized Money Management"
+subtitle: "Modernized and Migrated to the Cloud"
 background: shortBackground
 overviewStatement: Ocelot was tasked with accelerating cloud adoption and modernization of infrastructure for a fortune 500 Client.
 overviewList:
@@ -16,13 +16,13 @@ needImageAld: Financial Services
 
 {% capture solutionStatement %}
   <div class="padding-top-1">
-    Initial set up of infrastructure and modernization of applications.
+    Utilizing experts in application modernization and cloud migrations, Ocelot was able to work on multiple client goals at once. Working with the client, Ocelot was able to help take existing legacy desktop tools and rearchitect them using browser technologies and deploy them to their existing on premise servers. This allowed the client to quickly see the positive effects of the change. Users were now able to access these tools from any browser as well as see improvements in performance and usability. Simultaniously, other Ocelots were able to help establish an AWS cloud environment. Among the initial proofs of concept provided for the client, Ocelot helped to develop a Cloud based Data Lake with automation built for data ingestion and metadata generation. This not only showed the client the potential and benifits of using the cloud but provided a strong base for futher development and migrations to make use of data already present in the cloud.
   </div>
   <div class="padding-top-1">
-    Struggles of working with different teams with very different ways of working.
+    As the initial proofs of concept were being completed and the client was seeing the level of success they could achieve, more teams and business units wanted to get involved and leverage the new technologies. This came with its own set of concerns though. With each team and business unit having their own processes and ways of working it quickly became apparant that there needed to be some standardization across the wider organization for handling cloud migrations and modernizations. Luckily, Ocelot was able to help the client take what was learned in the early initiatives and generate standards and best practices which could be adapted and adopted by other groups in the organization.
   </div>
   <div class="padding-top-1">
-    Establishment of a cloud operations team to help standardize and optimize
+    In addition to helping provide common templates and standards of best practice, Ocelot helped to establish a centralized Cloud Operations team to aid in broader addoption of the cloud and modern technologies across the organization. This team has helped to ease the initial hurdle of getting started in the cloud and that has helped numerous team get up and running much faster than previously possible.
   </div>
 {% endcapture %}
 
