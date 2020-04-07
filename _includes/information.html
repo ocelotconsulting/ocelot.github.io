@@ -28,88 +28,33 @@
         <div class="container has-text-centered">
           <h1 class="title title__spacing-small">Services</h1>
           <h2 class="subtitle subtitle__spacing-small">How can Ocelot help transform your business?</h2>
-          <div class="columns">
-            <div class="column">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-5by3" style="margin: 0;">
-                    <img src="/assets/images/carlos-muza-84523-unsplash.jpg" class="is-16by9" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="title is-4">Cloud Migration</p>
+          {% for group in page.serviceGroups %}
+            <div class="columns">
+              {% for service in group.services %}
+                <div class="column is-4 {{ service.customClass }}">
+                  <a href="{{ service.link }}">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image is-5by3" style="margin: 0;">
+                          <img src="{{ service.image }}" class="is-16by9" alt="{{ service.title }}">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4">{{ service.title }}</p>
+                          </div>
+                        </div>
+                        <div class="content" style="text-align: left;">
+                          {{ service.description }}
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="content" style="text-align: left;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus minima placeat quasi
-                    illo est, expedita odit magnam.
-                  </div>
+                  </a>
                 </div>
-              </div>
+              {% endfor %}
             </div>
-            <div class="column">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-5by3" style="margin: 0;">
-                    <img src="/assets/images/helloquence-61189-unsplash.jpg" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="title is-4">Data Management</p>
-                    </div>
-                  </div>
-                  <div class="content" style="text-align: left;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus minima placeat quasi
-                    illo est, expedita odit magnam.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-5by3" style="margin: 0;">
-                    <img src="/assets/images/marvin-meyer-571072-unsplash.jpg" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="title is-4">Security & Compliance</p>
-                    </div>
-                  </div>
-                  <div class="content" style="text-align: left;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus minima placeat quasi
-                    illo est, expedita odit magnam.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-5by3" style="margin: 0;">
-                    <img src="/assets/images/marvin-meyer-571072-unsplash.jpg" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="title is-4">Analytics</p>
-                    </div>
-                  </div>
-                  <div class="content" style="text-align: left;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus minima placeat quasi
-                    illo est, expedita odit magnam.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {% endfor %}
           <br />
           <a href="/services" class="button is-primary is-outlined">Explore Our Services</a>
         </div>
@@ -156,81 +101,27 @@
             Success Stories
           </h1>
           <h2 class="subtitle subtitle__spacing-small"> Industries that we've empowered so far </h2>
-          <div class="columns padding-bottom">
-            <div class="column is-6">
-              <div class="columns is-vcentered">
-                <div class="column is-4">
-                  <i class="fas fa-heartbeat fa-3x"></i>
+          {% for industries in page.industryGroups %}
+            <div class="columns padding-bottom">
+              {% for industry in industries.industries %}
+                <div class="column is-6 {{ industry.customClass }}">
+                  <div class="columns is-vcentered">
+                    <div class="column is-4">
+                      <div>
+                        <a href="{{ industry.caseStudy }}"><i class="fas {{ industry.icon }} fa-3x is-primary"></i></a>
+                      </div>
+                    </div>
+                    <div class="column is-8" style="text-align: left;">
+                      <div class="icon-title icon-title--padding-bottom">{{ industry.title }}</div>
+                      <div>{{ industry.description }}</div>
+                    </div>
+                  </div>
                 </div>
-                <div class="column is-8" style="text-align: left;">
-                  <div class="icon-title icon-title--padding-bottom"> Healthcare </div>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. At sequi sunt illo magni id vero velit
-                  corporis explicabo ipsa vitae, voluptatum aperiam ducimus voluptatem, beatae maiores eos adipisci,
-                  possimus quam!
-                </div>
-              </div>
+              {% endfor %}
             </div>
-            <div class="column is-6">
-              <div class="columns is-vcentered">
-                <div class="column is-4">
-                  <i class="fas fa-tools fa-3x"></i>
-                </div>
-                <div class="column is-8" style="text-align: left;">
-                  <div class="icon-title icon-title--padding-bottom"> Utilities </div>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. At sequi sunt illo magni id vero velit
-                  corporis explicabo ipsa vitae, voluptatum aperiam ducimus voluptatem, beatae maiores eos adipisci,
-                  possimus quam!
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="columns padding-bottom">
-            <div class="column is-6">
-              <div class="columns is-vcentered">
-                <div class="column is-4">
-                  <i class="fas fa-money-check fa-3x"></i>
-                </div>
-                <div class="column is-8" style="text-align: left;">
-                  <div class="icon-title icon-title--padding-bottom"> Financial Services </div>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. At sequi sunt illo magni id vero velit
-                  corporis explicabo ipsa vitae, voluptatum aperiam ducimus voluptatem, beatae maiores eos adipisci,
-                  possimus quam!
-                </div>
-              </div>
-            </div>
-            <div class="column is-6">
-              <div class="columns is-vcentered">
-                <div class="column is-4">
-                  <i class="fas fa-phone fa-3x"></i>
-                </div>
-                <div class="column is-8" style="text-align: left;">
-                  <div class="icon-title icon-title--padding-bottom"> Telecommunication </div>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. At sequi sunt illo magni id vero velit
-                  corporis explicabo ipsa vitae, voluptatum aperiam ducimus voluptatem, beatae maiores eos adipisci,
-                  possimus quam!
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="columns padding-bottom">
-            <div class="column is-6">
-              <div class="columns is-vcentered">
-                <div class="column is-4">
-                  <i class="fas fa-users fa-3x"></i>
-                </div>
-                <div class="column is-8" style="text-align: left;">
-                  <div class="icon-title icon-title--padding-bottom"> Human Resources </div>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. At sequi sunt illo magni id vero velit
-                  corporis explicabo ipsa vitae, voluptatum aperiam ducimus voluptatem, beatae maiores eos adipisci,
-                  possimus quam!
-                </div>
-              </div>
-            </div>
-          </div>
+          {% endfor %}
           <br />
-          <a href="/client-success/" class="button is-primary is-outlined">View our Case Studies </a>
+          <a href="/industries/" class="button is-primary is-outlined">Learn more about the industries we serve </a>
         </div>
       </div>
     </section>

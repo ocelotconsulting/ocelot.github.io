@@ -31,6 +31,21 @@
   }
 }
 
+.with-padding {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+.is-200x200 {
+  width: 200px;
+  height: 200px;
+}
+
+.is-20x15 {
+  width: 20rem;
+  height: 15rem;
+}
+
 .info-card {
   width: 100%;
   height: 30rem;
@@ -166,4 +181,8 @@
     height: 100%;
     z-index: 2;
   }
+}
+
+i.is-primary {
+  color: $grey-dark;
 }
