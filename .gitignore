@@ -4,3 +4,4 @@ _site*
 
 # Stupid mac file
 *.DS_Store
+.idea
