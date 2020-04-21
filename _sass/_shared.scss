@@ -17,7 +17,7 @@
 .icon-group-subtitle {
   font-size: 1.5rem;
   line-height: 2rem;
-  padding: 0rem 12rem 2rem 12rem;
+  padding: 0 12rem 2rem 12rem;
 }
 
 .icon-description {
@@ -108,8 +108,8 @@
     display: table;
     bottom: 0;
     right: 0;
-    width: 40%;
-    height: 60%;
+    width: 60%;
+    height: 70%;
     text-align: center;
     background-color: rgba($grey-dark-1, .85);
     transition: transform .3s, background-color .3s;

@@ -17,7 +17,7 @@ services:
     subtitle: "Lorem ipsum dolor sit amet. Viverra maecenas accumsan lacus vel facilisis volutpat est. Pellentesque nec nam aliquam sem et. Turpis egestas integer eget aliquet nibh praesent tristique magna."
 ---
 <div class="columns is-centered" style="margin-top:8rem">
-	<div class="column is-half">
+	<div class="column is-one-third">
 		<a href="/services/cloud-technologies">
 			<div class="info-card">
 				<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #63A4FF, transparent), url(/assets/images/cloud-technologies.jpg"></div>
@@ -34,7 +34,7 @@ services:
 			</div>
 		</a>
 	</div>
-	<div class="column is-half">
+	<div class="column is-one-third">
 		<a href="/services/analytics">
 			<div class="info-card">
 				<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #77b582, transparent), url(/assets/images/magnifying-glass.jpg"></div>
@@ -51,10 +51,7 @@ services:
 			</div>
 		</a>
 	</div>
-</div>
-
-<div class="columns is-centered">
-	<div class="column is-half">
+	<div class="column is-one-third">
 		<a href="/services/data">
 			<div class="info-card">
 				<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #404040, transparent), url(/assets/images/data.jpg"></div>
@@ -71,7 +68,10 @@ services:
 			</div>
 		</a>
 	</div>
-	<div class="column is-half">
+</div>
+
+<div class="columns is-centered">
+	<div class="column is-one-third">
 		<a href="/services/enterprise-security">
 			<div class="info-card">
 				<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #966b4e, transparent), url(/assets/images/security.jpg"></div>
@@ -88,10 +88,8 @@ services:
 			</div>
 		</a>
 	</div>
-</div>
-<div class="columns is-centered">
-	<div class="column is-half">
-		<a href="/services/data">
+	<div class="column is-one-third">
+		<a href="/services/application-development">
 			<div class="info-card">
 				<div class="info-card__image" style="background-image: linear-gradient(to right bottom, #404040, transparent), url(/assets/images/helloquence-61189-unsplash.jpg"></div>
 				<div class="info-card__title">
