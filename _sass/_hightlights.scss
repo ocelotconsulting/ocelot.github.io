@@ -54,10 +54,19 @@
           ul {
             margin: 6rem 0 0 ;
             list-style: none;
-            min-height: 15rem;
-            font-size: 4rem;
+            //min-height: 15rem;
             text-transform: uppercase;
             letter-spacing: 1rem;
+          }
+          @media screen and (min-width: 1125px) {
+            ul {
+              font-size: 4rem;
+            }
+          }
+          @media screen and (max-width: 1124px) {
+            ul {
+              font-size: 3rem;
+            }
           }
           animation: moveInTop .5s ease-in .5s;
           animation-fill-mode: backwards;
@@ -75,7 +84,7 @@
           &--with-height {
             height: 10rem;
           }
-          
+
           .card {
             min-height: 20rem;
             background-color: $grey-light;

@@ -32,25 +32,20 @@
             <div class="columns">
               {% for service in group.services %}
                 <div class="column is-4 {{ service.customClass }}">
-                  <a href="{{ service.link }}">
-                    <div class="card">
-                      <div class="card-image">
-                        <figure class="image is-5by3" style="margin: 0;">
-                          <img src="{{ service.image }}" class="is-16by9" alt="{{ service.title }}">
-                        </figure>
-                      </div>
-                      <div class="card-content">
-                        <div class="media">
-                          <div class="media-content">
-                            <p class="title is-4">{{ service.title }}</p>
-                          </div>
-                        </div>
-                        <div class="content" style="text-align: left;">
-                          {{ service.description }}
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-5by3" style="margin: 0;">
+                        <img src="{{ service.image }}" class="is-16by9" alt="{{ service.title }}">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-content">
+                          <p class="title is-4">{{ service.title }}</p>
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </div>
                 </div>
               {% endfor %}
             </div>

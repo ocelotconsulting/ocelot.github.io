@@ -52,23 +52,22 @@
   border-radius: .25rem;
   position: relative;
 
-  &:hover {
-    cursor: pointer;
-  }
-
-  &:hover .info-card__title {
-    transform: scale(1.03);
-    background-color: $primary;
-  }
-
-  &:hover .info-card__subtitle {
-    transform: scale(1.03);
-    background-color: rgba($grey-dark-1, 1);
-  }
-
-  &:hover .info-card__image {
-    filter: blur(3px) brightness(80%);
-  }
+  //&:hover {
+  //  cursor: pointer;
+  //}
+  //&:hover .info-card__title {
+  //  transform: scale(1.03);
+  //  background-color: $primary;
+  //}
+  //
+  //&:hover .info-card__subtitle {
+  //  transform: scale(1.03);
+  //  background-color: rgba($grey-dark-1, 1);
+  //}
+  //
+  //&:hover .info-card__image {
+  //  filter: blur(3px) brightness(80%);
+  //}
 
   &__title {
     position: absolute;
@@ -87,7 +86,7 @@
     width: 100%;
     display: table-cell;
     vertical-align: middle;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
