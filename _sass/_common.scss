@@ -20,6 +20,10 @@ section.grey-dark-1 {
   background-repeat: repeat-x, no-repeat;
   padding: 0 0 12rem 0 !important;
   margin-top: -8rem;
+  @include mobile {
+    clip-path: none;
+    -webkit-clip-path: none;
+  }
 }
 
 columns {
