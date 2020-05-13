@@ -1,7 +1,6 @@
 ---
 layout:      posts
 background:  mediumBackground
-customClass: padding
 title:       "Unit testing with React and Enzyme"
 date:        2019-02-21 09:00:00
 author:      "John O'Malley"
