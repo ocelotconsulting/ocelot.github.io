@@ -13,7 +13,7 @@ benefits:
   - title: Retirement
     icon: fa-piggy-bank
     description: "Saving for the future is important and at Ocelot we want to help you secure it by offering retirement accounts and company matching."
-  - title: Paid Overtime
+  - title: Fair Compensation
     icon: fa-hand-holding-usd
     description: "Your time is valuable and if you choose to spend extra with us we want to show our appreciation for that."
   - title: Parental Leave
