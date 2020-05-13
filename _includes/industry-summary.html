@@ -17,12 +17,17 @@
     <a href="{{ include.link }}">
       <div class="box">
         <article class="media">
-          <div class="media-left">
+          <div class="media-left is-hidden-mobile">
             <div class="image is-20x15">
               <img src="{{ include.image }}" alt="{{ include.title }}" />
             </div>
           </div>
           <div class="media-content">
+            <div class="is-hidden-tablet" style="padding-bottom: 1rem;">
+              <div class="image">
+                <img src="{{ include.image }}" alt="{{ include.title }}" />
+              </div>
+            </div>
             <div class="content dark-text">
               <h3 class="title is-3 industry-title">{{ include.title }}</h3>
               <div class="has-text-weight-semibold">
