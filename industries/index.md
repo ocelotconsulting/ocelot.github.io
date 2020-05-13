@@ -40,7 +40,7 @@ industries:
   <div class="content">
     <div class="dashboard">
       <!-- left panel -->
-      <div class="dashboard-panel is-one-quarter">
+      <div class="dashboard-panel is-one-quarter is-hidden-mobile">
         <aside class="menu">
           <p class="menu-label">
             Industries
