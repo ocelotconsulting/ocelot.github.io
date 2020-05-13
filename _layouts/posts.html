@@ -37,17 +37,12 @@
             </div>
           </div>
         </div>
-        {% if page.customClass %}
-        <div class="container container--{{ page.customClass }}">
-          <p><i>{{page.author}} - {{page.date | date: "%b %d, %Y"}}</i></p>
+        <div class="container with-padding">
+          <p>
+            <i>{{page.author}} - {{page.date | date: "%b %d, %Y"}}</i>
+          </p>
           {{ content }}
         </div>
-        {% else %}
-        <div class="container">
-          <p><i>{{page.author}} - {{page.date | date: "%b %d, %Y"}}</i></p>
-          {{ content }}
-        </div>
-        {% endif %}
       </section>
     </div>
   </div>
