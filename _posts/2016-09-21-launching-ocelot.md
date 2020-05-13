@@ -1,6 +1,7 @@
 ---
 layout:      posts
 background:  shortBackground
+customClass: padding
 title:       "Launching Ocelot"
 subtitle:    "Ocelot Consulting introduction"
 date:        2016-09-22 09:05:00

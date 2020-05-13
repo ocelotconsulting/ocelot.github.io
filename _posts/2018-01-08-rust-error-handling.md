@@ -1,6 +1,7 @@
 ---
 layout:      posts
 background:  shortBackground
+customClass: padding
 title:       "Rebooting Error Handling"
 subtitle:    "Using the Rust programming language"
 date:        2018-01-08 10:00:00

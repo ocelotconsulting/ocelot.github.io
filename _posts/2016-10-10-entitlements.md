@@ -1,6 +1,7 @@
 ---
 layout:      posts
 background:  shortBackground
+customClass: padding
 title:       "Dynamic Entitlements"
 subtitle:    "using Neo4j"
 date:        2016-10-10 10:05:00

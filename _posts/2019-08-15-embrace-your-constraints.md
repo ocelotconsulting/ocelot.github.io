@@ -1,6 +1,7 @@
 ---
 layout:      posts
 background:  shortBackground
+customClass:     padding
 title:           "Embrace Your Constraints"
 date:            2019-08-15 09:00:00
 author:          "Artem Chernyak"
