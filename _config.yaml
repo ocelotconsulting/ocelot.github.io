@@ -40,6 +40,9 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class: 'syntax'
 
 # ----------------------- #
 #   3rd Party Settings    #
