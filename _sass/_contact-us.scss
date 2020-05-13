@@ -24,3 +24,11 @@
         }
     }
 }
+
+.social-media-container {
+    text-align: center;
+    line-height: 4rem;
+    &__icon {
+        padding: 1rem;
+    }
+}

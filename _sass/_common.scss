@@ -20,6 +20,10 @@ section.grey-dark-1 {
   background-repeat: repeat-x, no-repeat;
   padding: 0 0 12rem 0 !important;
   margin-top: -8rem;
+  @include mobile {
+    clip-path: polygon(25% 0, 100% 3%, 100% 100%, 50% 100%, 0 100%, 0 3%);
+    -webkit-clip-path: polygon(25% 0, 100% 3%, 100% 100%, 50% 100%, 0 100%, 0 3%);
+  }
 }
 
 columns {
@@ -33,6 +37,9 @@ columns {
     background-color: #eeeeee;
     transform: skewY(5deg);
     margin-top: -5rem;
+    @include mobile {
+      margin-top: 0rem;
+    }
   }
 
   &--light-background {
@@ -57,6 +64,9 @@ columns {
 
   &--spacing {
     margin-top: -10rem;
+    @include mobile {
+      margin-top: 10rem;
+    }
   }
 }
 

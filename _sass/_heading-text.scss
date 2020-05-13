@@ -16,6 +16,10 @@
         &--white {
             color: white;
         }
+
+        @include mobile {
+            padding: 1rem;
+        }
     }
 }
 

@@ -6,7 +6,7 @@
       -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 85%, 25% 100%, 0% 75%, 0 0);
       background-image: linear-gradient(to right, rgba(black, .90) 50%, rgba(black, .75) 100%), url(/assets/images/ocelot-wallpaper.jpg);
       background-size: cover;
-      background-position: right center;
+      background-position: left center;
       background-repeat: repeat-y;
       width: 100%;
       position: absolute;
@@ -14,6 +14,11 @@
       left: 0;
       z-index: 1;
       box-shadow: 0 2px 3px rgba(10, 10, 10, 0.5), 0 0 0 1px rgba(10, 10, 10, 0.25);
+
+      @include mobile {
+        clip-path: polygon(50% 0%, 100% 0, 100% 90%, 25% 100%, 0% 90%, 0 0);
+        -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 90%, 25% 100%, 0% 90%, 0 0);
+      }
     }
     .dot-background {
       height: 45rem;
@@ -29,6 +34,11 @@
       left: 0;
       z-index: 1;
       box-shadow: 0 2px 3px rgba(10, 10, 10, 0.5), 0 0 0 1px rgba(10, 10, 10, 0.25);
+      @include mobile {
+        background-image: none;
+        clip-path: polygon(50% 0%, 100% 0, 100% 95%, 25% 100%, 0% 85%, 0 0);
+        -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 95%, 25% 100%, 0% 85%, 0 0);
+      }
     }
     .shortBackground {
       height: 25rem !important;
@@ -57,15 +67,14 @@
             //min-height: 15rem;
             text-transform: uppercase;
             letter-spacing: 1rem;
+            font-size: 3rem;
           }
-          @media screen and (min-width: 1125px) {
-            ul {
-              font-size: 4rem;
-            }
-          }
-          @media screen and (max-width: 1124px) {
-            ul {
-              font-size: 3rem;
+
+          @include mobile {
+            ul{
+              font-size: 2.5rem;
+              text-align: center;
+              letter-spacing: .5rem;
             }
           }
           animation: moveInTop .5s ease-in .5s;
