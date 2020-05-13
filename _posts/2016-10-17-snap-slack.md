@@ -1,7 +1,6 @@
 ---
 layout:      posts
 background:  shortBackground
-customClass: padding
 title:       "Snap-Slack Bot"
 subtitle:    "Leveraging AWS lambda for asynchronous slack activities"
 date:        2016-10-17 13:45:00

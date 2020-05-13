@@ -1,7 +1,6 @@
 ---
 layout:      posts
 background:  shortBackground
-customClass: padding
 title:       "Securing CloudFront"
 subtitle:    "Secure, scalable and worry free websites"
 date:        2016-10-03 00:00:00

@@ -1,7 +1,6 @@
 ---
 layout:      posts
 background:  shortBackground
-customClass: padding
 title:       "STL OWASP CTF"
 subtitle:    "Seeing information security from the other side"
 date:        2016-10-28 09:45:00
