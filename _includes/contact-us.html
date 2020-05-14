@@ -9,7 +9,9 @@
           <h3 class="subtitle subtitle__white">
             Give us a call at <a href="tel:+1314-384-3225" class="subtitle__link">+1 314 384 3225</a> or send us a message.
           </h3>
-          <form name="sentMessage" id="contactForm" action="https://formspree.io/info@ocelotconsulting.com" method="POST" novalidate>
+          <form name="sentMessage" id="contactForm" action="https://9qpcx5jjib.execute-api.us-east-1.amazonaws.com/prod/" method="POST" novalidate>
+            <input type="hidden" id="_to" name="_to" value="info@ocelotconsulting.com" >
+            <input type="hidden" id="_honeypot" name="_honeypot" value="" >
             <div class="columns">
               <div class="column">
                 <div class="field">
@@ -34,15 +36,13 @@
                         <textarea class="textarea" placeholder="Your Message *" rows="4" id="message" name="message" required data-validation-required-message="Please enter a message." style="height: 132px;" ></textarea>
                     </div>
                 </div>
-                <input type="hidden" name="_next" value="http://www.ocelotconsulting.com" />
-                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_redirect" value="https://ocelotconsulting.com" />
               </div>
             </div>
             <button type="submit" class="button button--white is-outlined">Send Message</button>
         </form>
         </div>
       </div>
-      
       <div class="social-media-container">
         <span class="social-media-container__icon">
           <a class="button button--rounded-button" href="https://twitter.com/ocelot_llc">
