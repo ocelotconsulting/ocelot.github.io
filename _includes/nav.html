@@ -6,7 +6,7 @@
       <a class="navbar-item is-size-5 is-capitalized is-roboto" href='/'>
         Ocelot Consulting
       </a>
-      <div class="navbar-burger burger" data-target="ocelot-navbar-menu"  onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+      <div class="navbar-burger burger" data-target="ocelot-navbar-menu">
         <span></span>
         <span></span>
         <span></span>
@@ -37,3 +37,37 @@
     </div>
   </div>
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var burgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0)
+
+    // Open navbar on click.
+    if (burgers.length > 0) {
+      burgers.forEach(function (el) {
+        el.addEventListener('click', function () {
+          var target = document.getElementById(el.dataset.target)
+          el.classList.toggle('is-active')
+          target.classList.toggle('is-active')
+        })
+      })
+    }
+
+    var items = document.querySelectorAll('.navbar-item')
+
+    // Close navbar on same-page link click.
+    if (items.length > 0) {
+      var target = document.getElementById('ocelot-navbar-menu')
+      items.forEach(function (el) {
+        el.addEventListener('click', function () {
+          target.classList.toggle('is-active')
+
+          if (burgers.length > 0) {
+            burgers.forEach(function (burg) {
+              burg.classList.toggle('is-active')
+            })
+          }
+        })
+      })
+    }
+  })
+</script>
