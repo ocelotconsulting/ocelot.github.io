@@ -36,7 +36,7 @@ industries:
     solution: IT can play a huge role in simplifying the search for the right candidates and positions. By utilizing these tools, companies can broadcast their openings to a broad audience, automatically receive and review applications, as well as ensure candidates meet minimum requirements before moving forward. Applicants using job search and hiring tools have the advantage of finding the right opportunity for them from a wide array of offerings and easily applying to them in one place.<br/><br/>Ocelot has helped clients build tools used by numerous businesses to find the best candidates and individuals find the right position for them.  
 ---
 
-<div class="container with-padding">
+<div class="container">
   <div class="content">
     <div class="dashboard">
       <!-- left panel -->

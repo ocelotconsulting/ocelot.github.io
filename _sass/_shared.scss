@@ -25,6 +25,9 @@
 }
 
 .icon-section {
+  @include mobile {
+    padding-top: 5rem;
+  }
   &--with-padding {
     padding-top: 7rem;
     padding-bottom: 2rem;

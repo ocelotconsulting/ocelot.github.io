@@ -35,9 +35,9 @@ culture:
 attribution: Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 ---
 
-{% include icon-list.html title="Culture" id="culture" section="is-medium" icons=page.culture padding="true" %}
+{% include icon-list.html title="Culture" id="culture" section="is-medium" icons=page.culture %}
 
-{% include icon-list.html title="Benefits" id="benefits" section="is-medium" icons=page.benefits padding="true" %}
+{% include icon-list.html title="Benefits" id="benefits" section="is-medium" icons=page.benefits %}
 
 <section class="hero is-medium">
   <div class="hero-body">

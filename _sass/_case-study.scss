@@ -1,18 +1,21 @@
 .caseSection {
   min-height: 20rem;
-  padding-top: 5rem;
-  
-  @include mobile {
-    padding-top: 10rem;
-  }
 }
 
 .padding-top-1 {
-  padding: 1rem;
+  padding-top: 1rem;
+}
+
+.padding-no-top-2 {
+  padding: 0 2rem 2rem 2rem;
 }
 
 .padding-top-2 {
-  padding: 2rem;
+  padding-top: 2rem;
+}
+
+.padding-1 {
+  padding: 1rem;
 }
 
 .padding-2 {
