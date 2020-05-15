@@ -94,15 +94,25 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    @include mobile {
+      font-size: 1rem;
+    }
   }
 
   &__sub-text {
     position: absolute;
     width: 100%;
     padding: .75rem;
-    display: table-cell;
     font-size: 1.1rem;
-    color:white
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100%;
+    @include mobile {
+      font-size: 0.9rem;
+    }
   }
 
   &__subtitle {
