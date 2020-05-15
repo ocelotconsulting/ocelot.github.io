@@ -13,7 +13,7 @@ background: mediumBackground
   <div id="our-story">
     <section class="hero is-medium">
       <div class="hero-body">
-        <div class="container has-text-centered">
+        <div class="container container--padding has-text-centered">
           <div class="columns is-vcentered">
             <div class="column is-8">
               <h1 class="title title__spacing-medium">
