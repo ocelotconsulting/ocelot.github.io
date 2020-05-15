@@ -38,11 +38,11 @@
           </div>
         </div>
         {% if page.customClass %}
-        <div class="container container--{{ page.customClass }}">
+        <div class="container container--padding container--{{ page.customClass }}">
           {{ content }}
         </div>
         {% else %}
-        <div class="container">
+        <div class="container container--padding">
           {{ content }}
         </div>
         {% endif %}
