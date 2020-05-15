@@ -27,7 +27,7 @@ services:
             </div>
             <div class="info-card__subtitle">
                 <div class="info-card__sub-text">
-                    Whether your company is wanting to leverage a cloud environment for the first time, expand an existing deployment, or modernize the flow between on premise and cloud systems, we have engineers that have successfully done it all. 
+                    Whether your company is wanting to leverage a cloud environment for the first time, expand an existing deployment, or modernize the flow between on premise and cloud systems, we have engineers that have successfully done it all.
                 </div>
             </div>
         </div>
